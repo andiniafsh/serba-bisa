@@ -14,7 +14,7 @@
     <!--Navbar-->
     <header>
         <div class="bx bx-menu" id="menu-icon"></div>
-        <span class="site-name">SebaBisa.</span> <!-- Nama website -->
+        <span class="site-name">SebaBisa.</span>
         <ul class="navbar">
             <li><a href="#beranda">Beranda</a></li>
             <li><a href="#jelajah">Jelajah</a></li>
@@ -141,38 +141,40 @@
 
     <footer>
         <div class="footer-container">
-          <div class="footer-section about">
-            <h2>SerbaBisa</h2>
-            <h10>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, atque eaque fugiat accusamus magnam aliquid saepe earum aperiam quae ipsum pariatur dolores eum vitae omnis ad, necessitatibus voluptates doloribus labore!
-            </h10>
-            <div class="kontak">
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <div class="footer-section about">
+                <h2>SerbaBisa</h2>
+                <h10>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, atque eaque fugiat accusamus
+                    magnam aliquid saepe earum aperiam quae ipsum pariatur dolores eum vitae omnis ad, necessitatibus
+                    voluptates doloribus labore!
+                </h10>
+                <div class="kontak">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
             </div>
-          </div>
-          <div class="footer-section layanan">
-            <h4>Tentang Kami</h4>
-            <li>Layanan</li>
-            <li>Layanan</li>
-            <li>Layanan</li>
-          </div>
-          <div class="footer-section Tim">
-            <h4>Tim Kami</h4>
-            <li>Layanan </li>
-            <li>Layanan </li>
-            <li>Layanan </li>
-          </div>
-          <div class="footer-section Kontak Kami">
-            <h4>Kontak Kami</h4>
-            <li>Layanan Kami</li>
-            <li>Layanan Kami</li>
-            <li>Layanan Kami</li>
-          </div>
+            <div class="footer-section layanan">
+                <h4>Tentang Kami</h4>
+                <li>Layanan</li>
+                <li>Layanan</li>
+                <li>Layanan</li>
+            </div>
+            <div class="footer-section Tim">
+                <h4>Tim Kami</h4>
+                <li>Layanan </li>
+                <li>Layanan </li>
+                <li>Layanan </li>
+            </div>
+            <div class="footer-section Kontak Kami">
+                <h4>Kontak Kami</h4>
+                <li>Layanan Kami</li>
+                <li>Layanan Kami</li>
+                <li>Layanan Kami</li>
+            </div>
         </div>
         <div class="footer-bawah">Copyright &copy;</div>
-      </footer>
+    </footer>
     <script src="{{ url('js/main.js') }}"></script>
 </body>
 
