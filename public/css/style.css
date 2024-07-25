@@ -1,0 +1,428 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --main-color: #039855;
+    --second-color: #32D583;
+}
+
+section {
+    padding: 50px 10%;
+}
+*::selection {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 4px 41px rgba(14, 55, 54, 0.14);
+    padding: 15px 10%;
+    transition: 0.2s;
+}
+
+.site-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-right: 20px; 
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 1rem;
+    padding: 11px 20px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: var(--second-color);   
+}
+
+#menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #D1FADF;
+    padding: 100px 10%; 
+    gap: 2rem;
+}
+
+.banner-text {
+    flex: 1 1 17rem;
+}
+
+.banner-img {
+    flex: 1 1 17rem;
+}
+
+.banner-text span {
+    font-size: 3.0rem;
+    font-weight: bolder;
+    color: #1C274C;
+    display: block; 
+    margin-bottom: 1rem;
+}
+
+.banner-text h1 {
+    font-size: 1.5rem; 
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 1.5rem; 
+    line-height: 1.5; 
+}
+
+.btn-mitra, .btn-pekerja {
+    padding: 10px 20px;
+    border: 2px solid var(--second-color);
+    border-radius: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-mitra {
+    color: var(--main-color);
+}
+
+.btn-pekerja {
+    background-color: var(--second-color);
+    color: white;
+}
+
+.btn-mitra:hover {
+    background-color: var(--second-color);
+    color: white;
+}
+.btn-pekerja:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+
+/*Layanan*/
+.heading h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1C274C;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.popular-container-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.popular-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.popular-container .box {
+    flex: 0 0 25%; /* Menampilkan 4 gambar sekaligus */
+    box-sizing: border-box;
+    padding: 10px;
+    background: #fff;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.popular-container .box .box-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-container .box .box-img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.nav-controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    pointer-events: none; 
+}
+
+.nav-controls .nav-btn {
+    background: #fff;
+    color: var(--main-color);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    transition: background 0.3s ease;
+    pointer-events: all;
+}
+
+.nav-btn:hover {
+    background: var(--second-color);
+}
+
+.pagination-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.pagination-line .page-item {
+    width: 10px;
+    height: 10px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination-line .page-item.active,
+.pagination-line .page-item:hover {
+    background-color: var(--second-color);
+}
+
+/*Mitra */
+.mitra .heading h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1C274C;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.mitra-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    box-sizing: border-box; 
+    max-width: 1100px;
+    margin: 0 auto; 
+    gap: 20px; 
+}
+.mitra-card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.mitra-card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    transform: translateY(-3%);
+}
+.mitra-card img{
+    width: 100%;
+    height: 300px;
+}
+.mitra-card .content-mitra{
+    padding: 15px;
+    text-align: center;
+}
+.mitra-card .content-mitra p{
+   line-height: 1.5;
+   color: black ;
+}
+.mitra-card .content-mitra h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-weight: bolder;
+ }
+ .mitra-card .content-mitra a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px; 
+    margin-top: 10px;
+    color: black;
+    border: 2px solid var(--second-color);
+    border-radius: 4px;
+    transition: all 0.4s ease; 
+    background-color: transparent; 
+    text-align: center;
+}
+
+.mitra-card .content-mitra a:hover {
+    background-color: var(--second-color); 
+    color: white; 
+    border-color: var(--second-color); 
+}
+
+/* Section gabung */
+.Gabung {
+    width: 100%;
+    background-color: #fff; 
+    padding: 0 100px; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.gabung-container {
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.gabung-card {
+    background-color: var(--main-color); 
+    color: #fff; 
+    padding: 2rem; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 100%; 
+    max-width: 100%;
+}
+
+.gabung-card h1 {
+    font-size: 2rem;
+    margin-bottom: 3rem; 
+    margin-top: 3rem;
+}
+
+.gabung-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 3rem; 
+}
+
+.gabung-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--second-color); 
+    color: #fff; 
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.gabung-card a:hover {
+    background-color: #1a9a48; 
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 3rem;
+    background-color: #e0e6e9; 
+    color: #343a40; 
+    padding: 2rem 0; 
+    font-family: Arial, sans-serif; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.footer-section {
+    flex-basis: calc(25% - 40px); 
+    margin-bottom: 20px;
+    padding: 0 20px; 
+}
+
+.footer-section h2 {
+    color: var(--main-color); 
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section h4 {
+    margin-top: 30px ;
+    color: #6c757d; 
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.footer-section p, .footer-section li, .footer-section h10 {
+    font-size: 0.9em;
+    color: #6c757d; 
+    margin-bottom: 10px; 
+}
+
+.footer-section a {
+    display: inline-block;
+    color: #fff; 
+    background-color: var(--main-color); 
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 2rem; 
+    width: 50px; 
+    height: 50px;
+    line-height: 50px; 
+    border-radius: 50%; 
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+}
+
+.footer-section a:hover {
+    background-color: #218838;
+}
+
+.footer-bawah {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    padding-bottom: 20px; 
+    background-color: #e0e6e9; 
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .footer-section {
+        flex-basis: 100%;
+        padding: 0;
+    }
+}
+
