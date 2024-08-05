@@ -24,9 +24,9 @@ section {
     background-color: var(--main-color);
 }
 
-img {
+/* img {
     width: 100%;
-}
+} */
 
 header {
     position: fixed;
@@ -418,11 +418,255 @@ footer {
     background-color: #e0e6e9; 
 }
 
-/* Responsif */
+/*layanan jasa*/
+.layanan-jasa {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.layanan-jasa .heading h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1C274C;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.layanan-jasa .service {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 1rem;
+    width: 80%; 
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.picture{
+    position: relative;
+    height: 100px;
+    width: cals(130%-80px);
+    top: -10px;
+    left: 400px;
+    transform: scale(2);
+    z-index: 1;
+}
+.picture2{
+    position: relative;
+    height: 100px;
+    width: cals(130%-80px);
+    top: -110px;
+    right: 430px;
+    transform: scale(1.5);
+    z-index: 1;
+}
+.picture3{
+    position: relative;
+    height: 100px;
+    width: cals(130%-80px);
+    top: -40px;
+    left: 600px;
+    transform: scale(1.8);
+    z-index: 1;
+}
+.picture4{
+    position: relative;
+    height: 100px;
+    width: cals(130%-80px);
+    top: -50px;
+    right: 80px;
+    transform: scale(2);
+    z-index: 1;
+}
+.layanan-jasa .service p{
+    text-align: justify;
+}
+.layanan-jasa .service h2{
+    text-align: left;
+}
+.layanan-jasa .service img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.layanan-jasa .service .description {
+    padding: 0 20px;
+}
+
+.layanan-jasa .service:nth-child(odd) {
+    flex-direction: row;
+}
+
+.layanan-jasa .service:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+/*reason*/
+.reason {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    margin-bottom: 10px;
+    /* background-color:#1a9a48; */
+    
+}
+
+.reason .heading h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1C274C;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    flex: 1;
+    height: 600px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 4rem;
+}
+.about-img{
+    flex: 1;
+    overflow: hidden;
+    height: 600px;
+    width: 100px;
+
+}
+#img1{
+    position: relative;
+    max-width: 250px;
+    height: 300px;
+    top: 50px;
+    z-index: 2;
+    right: -100px;
+}
+#img2{
+    position: relative;
+    max-width: 150px;
+    height: 200px;
+    align-items: left;
+    top: 100px; 
+    right: -30px;
+    z-index: 3;
+}
+
+.reason-lists {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: auto; 
+}
+
+.reason-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: auto; 
+}
+
+.reason-list img {
+    width: 50px;
+    height: 50px;
+}
+
+.description {
+    text-align: left;
+}
+
+.description h4 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.description p {
+    margin: 0;
+    line-height: 1.6;
+} 
+.Vector{
+    position: relative;
+    height: 5px;
+    width: cals(130%-80px);
+    top: -10px;
+    right: 20px;
+    z-index: 1;
+}
+#vector2{
+    top: -10px;
+    left: -10px;
+    right: -900px;
+}
+.vector3{
+    position: relative;
+    height: 5px;
+    width: cals(130%-90px);
+    top: -10px;
+    right: -220px;
+    z-index: 1;
+}
+.vector4{
+    position: relative;
+    height: 5px;
+    width: cals(130%-90px);
+    bottom: -280px;
+    right: -50px;
+    z-index: 1;
+}
+.vector5{
+    position: relative;
+    height: 5px;
+    width: cals(130%-80px);
+    bottom: -550px;
+    z-index: 2;
+}
+
+
 @media (max-width: 768px) {
+    .layanan-jasa .service {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .layanan-jasa .service:nth-child(even),
+    .layanan-jasa .service:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    .layanan-jasa .service img {
+        margin-bottom: 10px;
+    }
+
+    .layanan-jasa .service .description {
+        padding: 0;
+    }
     .footer-section {
         flex-basis: 100%;
         padding: 0;
     }
 }
+
 

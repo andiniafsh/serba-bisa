@@ -14,7 +14,7 @@
     <!--Navbar-->
     <header>
         <div class="bx bx-menu" id="menu-icon"></div>
-        <span class="site-name">SebaBisa.</span>
+        <span class="site-name">SerbaBisa.</span>
         <ul class="navbar">
             <li><a href="#beranda">Beranda</a></li>
             <li><a href="#jelajah">Jelajah</a></li>
@@ -81,6 +81,102 @@
         <div class="pagination-line">
             <div class="page-item active"></div>
             <div class="page-item"></div>
+        </div>
+    </section>
+    <!--Jenis Layanan Jasa di Serba Bisa-->
+    <section class="layanan-jasa" id="layanan-jasa">
+        <div class="heading">
+            <h1>Jenis Layanan Jasa di Serba Bisa</h1>
+        </div>
+        <div class="service">
+            <img src="img/layanan-jasa/teman belajar.png" alt="Teman Belajar">
+            <div class="description">
+                <h2>Teman Belajar</h2>
+                <p>Teman Belajar adalah jenis layanan<br> belajar bersama mitra yang sudah<br> mumpuni di bidangnya melalui metode<br> yang mudah dan menyenangkan</p>
+            </div>
+            <div class="picture">
+                <img src="img/layanan-jasa/PNG1.png" alt="img1">
+            </div>
+        </div>
+        <div class="service">
+            <img src="img/layanan-jasa/pekerja kasar.png" alt="Pekerja Kasar">
+            <div class="description">
+                <h2>Pekerja Kasar</h2>
+                <p>Pekerja kasar adalah layanan jasa<br> bantuan bagi masyarakat yang<br> kesulitan atau tidak punya waktu<br> mengerjakan pekerjaan ringan di<br> rumah, kantor, atau instansi tertentu</p>
+            </div>
+            <div class="picture2">
+                <img src="img/layanan-jasa/PNG 3.png" alt="img2">
+            </div>
+        </div>
+        <div class="service">
+            <img src="img/layanan-jasa/tenaga profesional.png" alt="Tenaga Profesional">
+            <div class="description">
+                <h2>Tenaga Profesional</h2>
+                <p>Tenaga Profesional merupakan layanan<br> yang menghadirkan para mitra<br> terverifikasi di bidangnya. Memiliki<br> pengalaman yang luar biasa serta<br> mampu memberikan pelayanan terbaik</p>
+            </div>
+            <div class="picture3">
+                <img src="img/layanan-jasa/PNG 2.png" alt="img1">
+            </div>
+        </div>
+        <div class="service">
+            <div class="picture4">
+                <img src="img/layanan-jasa/PNG 4.png" alt="img1">
+            </div>
+        </div>
+    </section>
+     <!--Mengapa serba bisa?-->
+     <section class="reason" id="reason">
+        <div class="heading">
+            <h1>Mengapa SerbaBisa?</h1>
+        </div>
+        <div class="vector">
+            <img src="img/alasan/Vector.png" alt="img1">
+            {{-- <img id="vector2" src="img/alasan/objek.png" alt="img2"> --}}
+        </div>
+        <div class="vector5">
+            <img src="img/alasan/Group.png" alt="img5">
+        </div>
+        <div class="about">
+            <div class="about-img">
+                <div class="vector3">
+                    <img src="img/alasan/image 21.png" alt="img3">
+                </div>
+                <div class="vector4">
+                    <img src="img/alasan/image 22.png" alt="img4">
+                </div>
+                <img id="img1" src="{{ url('img/alasan/pekerja 1 1.png') }}" alt="pekerja" />
+                <img id="img2" src="{{ url('img/alasan/guru 1.png') }}" alt="pekerja2" />
+            </div>
+            <div class="about-content">
+                    <div class="reason-list">
+                        <img src="img/alasan/Vector (1).png" alt="alasan1">
+                        <div class="description">
+                            <h4>Pelayanan terjamin</h4>
+                            <p>
+                                Banyaknya pilihan mitra dengan berbagai jenis pelayanan yang disediakan,
+                                kami menghadirkan para ahli di bidangnya
+                            </p>
+                        </div>
+                    </div>
+                    <div class="reason-list">
+                        <img src="img/alasan/Vector(2).png" alt="alasan2">
+                        <div class="description">
+                            <h4>Mudah dan Cepat</h4>
+                            <p>
+                                SerbaBisa memberikan pelayanan yang mudah dan cepat serta hasil yang memuaskan bagi para konsumen 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="reason-list">
+                        <img src="img/alasan/Vector(3).png" alt="alasan3">
+                        <div class="description">
+                            <h4>Ada setiap saat</h4>
+                            <p>
+                                SerbaBisa Hadir dalam setiap waktu kapanpun anda memerlukan bantuan 
+                            </p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
 
