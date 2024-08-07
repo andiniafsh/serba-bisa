@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard-landingPage');
 });
+
+Route::get('/tambah-jasa', function () {
+    return view('tambah_jasa');
+});
