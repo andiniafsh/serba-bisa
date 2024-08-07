@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('dashboard-landingPage');
+    return view('layout/dashboard-landingPage');
+});
+
+//profil akun
+Route::get('/pembayaran', function () {
+    return view('layout/profil-akun-pembayaran');
+});
+Route::get('/biodata', function () {
+    return view('layout/profil-akun-biodata');
+});
+Route::get('/alamat', function () {
+    return view('layout/profil-akun-daftarAlamat');
+});
+Route::get('/riwayat', function () {
+    return view('layout/profil-akun-riwayatPesanan');
+});
+Route::get('/riwayat2', function () {
+    return view('layout/profil-akun-riwayatPesanan2');
+});
+Route::get('/pengaturan', function () {
+    return view('layout/profil-akun-Pengaturan');
 });
