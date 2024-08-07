@@ -35,4 +35,6 @@ Route::get('/riwayat2', function () {
 });
 Route::get('/pengaturan', function () {
     return view('layout/profil-akun-Pengaturan');
+Route::get('/tambah-jasa', function () {
+    return view('tambah_jasa');
 });
