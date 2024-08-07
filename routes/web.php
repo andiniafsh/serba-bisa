@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard-landingPage');
+Route::get('/daftar-mitra', function () {
+    return view('daftar-mitra');
 });
