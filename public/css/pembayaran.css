@@ -1,0 +1,31 @@
+:root {
+    --main-color: #039855;
+    --second-color: #32D583;
+    --third-color:#00604D;
+    --fourth-color:#00604D;
+  }
+  
+
+.pembayaran {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pembayaran .col-md-4 {
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box;
+}
+
+.pembayaran .d-flex {
+    margin-bottom: 15px;
+}
+.d-flex align-items-center mt-3 a{
+    color: var(--main-color);
+}
+.content img {
+    width: 100px;
+    height: 60px;
+    border-radius: 2%;
+}
+

@@ -1,0 +1,56 @@
+.text-green {
+    color: #039855;
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: 2px solid #039855;
+    color: #039855;
+}
+
+.content {
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+
+.address-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.address-card .status {
+    font-weight: bold;
+    color: #039855;
+}
+
+.address-card .edit-link {
+    color: #039855;
+    cursor: pointer;
+}
+
+.add-address-btn {
+    background-color: #039855;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-address-btn:hover {
+    background-color: #027a46;
+}
+h6, .address-card p:first-child {
+    font-weight: bold;
+}
+#alamat h6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1 / -1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 0px;
+    font-weight: bold;
+}
