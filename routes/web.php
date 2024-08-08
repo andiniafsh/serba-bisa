@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('dashboard-landingPage');
 });
 
-Route::get('/daftar-mitra', function () {
-    return view('daftar_mitra');
+Route::get('/daftar-mitra-1', function () {
+    return view('daftar_mitra_1');
+});
+
+route::get('/daftar', function () {
+    return view('daftar');
 });
