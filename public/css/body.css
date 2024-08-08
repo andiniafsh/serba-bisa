@@ -66,6 +66,11 @@ body {
 .sidebar .text-green {
     color: var(--main-color);
 }
+
+.text-green {
+    color: var(--main-color);
+}
+
 .border-top {
     border-top: 2px solid rgba(6, 6, 6, 0.4); 
     padding-top: 10px;
