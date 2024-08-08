@@ -55,16 +55,28 @@
                             </label>
 
                             <label class="btn btn-outline-secondary">
+                                <i class='bx bx-code-alt' ></i>
                                 <input type="radio" name="jenisPekerjaan" autocomplete="off"> 
                                 Tenaga Ahli
                             </label>
 
                         </div>
-
-                        <button type="submit" class="btn btn-success btn-block">Lanjutkan</button>
+                        
+                        {{-- <div class="d-grid gap-2 d-md-block">
+                            <button class="btn btn-light" type="button">Button</button>
+                            <button class="btn btn-success" type="button">Button</button>
+                        </div> --}}
+                        {{-- <button type="submit" class="btn btn-success btn-block">Lanjutkan</button>
                         <button type="button" class="btn btn-light btn-block mt-2">
-                            <span>&larr;</span> Kembali
-                        </button>
+                            <span>&larr;</span> 
+                        </button> --}}
+
+                        <div class="d-grid gap-2 d-md-block">
+                            <button type="button" class="btn btn-light">
+                                <span>&larr;</span> 
+                            </button>
+                            <button type="submit" class="btn btn-success ">Lanjutkan</button>
+                        </div>
 
                     </form>
                 </div>

@@ -24,3 +24,7 @@ Route::get('/daftar-mitra-1', function () {
 route::get('/daftar', function () {
     return view('daftar');
 });
+
+route::get('/test', function () {
+    return view('test');
+});
