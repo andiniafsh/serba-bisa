@@ -56,6 +56,17 @@
             padding: 20px;
         }
 
+        .form-select {
+            border: 1px solid #039855;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 10px;
+            border-radius: 5px;
+            width: 450px;
+            color: #6B7280;
+        }
+
+
         .form-group label {
             font-size: 14px;
             font-weight: 600;
@@ -139,64 +150,41 @@
                 <div class="card p-4 d-flex flex-column">
                     <h3 class="text-center mb-4">Daftar Mitra</h3>
                     <div class="progress mb-4">
-                        <div class="progress-bar"></div>
                         <div class="progress-bar orange"></div>
+                        <div class="progress-bar"></div>
                         <div class="progress-bar red"></div>
                     </div>
 
                     <form class="d-flex flex-column flex-grow-1">
+
                         <div class="form-group">
-                            <label for="namaLengkap">Nama Lengkap</label>
-                            <input type="text" class="form-control" id="namaLengkap" placeholder="Masukkan Nama Lengkap Anda">
+                            <label for="rekening">Pilih Rekening Pembayaran</label>
+                                <div>    
+                                    <select class="form-select" id="rekening" placeholder="pilih salah satu">
+                                        <option selected>Pilih Salah satu</option>
+                                        <option value="1">BCA</option>
+                                        <option value="2">BNI</option>
+                                    </select>
+                                </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="kataSandi">Kata Sandi</label>
-                            <input type="password" class="form-control" id="kataSandi" placeholder="Masukkan Kata Sandi">
+                            <label for="nomorRekening">Masukkan Nomor Rekening</label>
+                            <input type="integer" class="form-control" id="nomorRekening" placeholder="Masukkan Nomor Rekening Anda">
                         </div>
 
                         <div class="form-group">
-                            <label for="alamatLengkap">Alamat Lengkap</label>
-                            <input type="text" class="form-control" id="alamatLengkap" placeholder="Masukkan Alamat Lengkap Anda">
+                            <label for="pinTransaksi">Masukkan PIN Transaksi</label>
+                            <input type="integer" class="form-control" id="pinTransaksi" placeholder="Kode berupa angka 6 digit">
                         </div>
 
                         <hr class="form-divider">
 
-                        <h5>Pilih Jenis Pekerjaan</h5>
-
-                        <div class="btn-group-toggle mb-4" data-toggle="buttons">
-                            <label class="btn btn-outline-secondary">
-                                <i class='bx bx-hard-hat'></i>
-                                <input type="radio" name="jenisPekerjaan" autocomplete="off">
-                                Pekerja Kasar
-                            </label>
-
-                            <label class="btn btn-outline-secondary">
-                                <i class='bx bx-chalkboard'></i>
-                                <input type="radio" name="jenisPekerjaan" autocomplete="off">
-                                Teman Belajar
-                            </label>
-
-                            <label class="btn btn-outline-secondary">
-                                <i class='bx bx-code-alt'></i>
-                                <input type="radio" name="jenisPekerjaan" autocomplete="off">
-                                Tenaga Ahli
-                            </label>
-                        </div>
-
                         <div class="btn-group mt-auto">
-                            
-                            <a href="/">
-                                <button type="button" class="btn btn-light">
-                                    <span>&larr;</span>
-                                </button>
-                            </a>
-                           
-                            
-                            <a href="/daftar-mitra-2">
-                                <button type="submit" class="btn btn-success" href="/daftar-mitra-2">Lanjutkan</button>
-                            </a>
-                            
+                            <button type="button" class="btn btn-light">
+                                <span>&larr;</span>
+                            </button>
+                            <button type="submit" class="btn btn-success">Lanjutkan</button>
                         </div>
                     </form>
                 </div>
