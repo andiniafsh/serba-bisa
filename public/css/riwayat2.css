@@ -1,0 +1,201 @@
+:root {
+    --main-color: #039855;
+    --second-color: #32D583;
+    --third-color:#00604D;
+    --fourth-color:#00604D;
+}
+
+.sidebar .card {
+    margin-bottom: 20px;
+}
+
+.profile-cards, .profile-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.profile-cards .card, .profile-review .review-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-header, .review-card {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    width: 25px;
+    height: 25px; 
+    margin-right: 10px;
+    color: var(--main-color);
+}
+
+.profile-cards img, .review-profile img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-details h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.card-details p {
+    font-size: 0.9rem; 
+    margin: 2px 0; 
+}
+
+.price {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem; 
+    margin: 2px 0; 
+}
+
+.content p {
+    margin: 0;
+    width: 50%;
+}
+
+.content .highlight, .content .status {
+    width: 50%;
+}
+
+.highlight {
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status-pending {
+    color: #ffc107;
+}
+
+.status-complete{
+    color: var(--main-color);
+}
+
+.complete-btn {
+    background-color: var(--second-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.complete-btn:hover {
+    background-color: var(--main-color);
+}
+
+.profile-review {
+    width: 100%; 
+    height: auto;
+}
+
+.review-card {
+    border: 1px solid var(--fourth-color);
+    padding: 15px;
+    position: relative;
+}
+
+.review-profile {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.review-profile img {
+    width: 50px;
+    height: 50px;
+}
+
+.review-content {
+    flex: 1;
+}
+
+.add-review-text {
+    font-size: 16px;
+    color: var(--main-color);
+}
+
+.review-edit-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: var(--main-color);
+    font-size: 24px; 
+}
+
+.character-count {
+    display: block;
+    font-size: 12px; 
+    color: var(--main-color); 
+    margin-top: 5px;
+}
+
+
+.review-edit-icon:hover {
+    color: var(--third-color);
+}
+.star-review {
+    display: flex;
+    align-items: center;
+    font-size: 2rem; 
+}
+
+.star-review .fa-star {
+    margin-right: 5px; 
+}
+
+.star-review .fa-star.filled {
+    color: var(--main-color); 
+}
+
+.star-review .fa-star.unfilled {
+    color: white; 
+    border: 2px solid var(--main-color); 
+    display: inline-block; 
+    width: 1.5em; 
+    height: 1.5em; 
+    text-align: center; 
+    line-height: 1.5em; 
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.star-review .fa-star.unfilled::before {
+    content: "\f005"; 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    color: white; 
+}

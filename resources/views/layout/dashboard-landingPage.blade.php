@@ -13,8 +13,10 @@
 <body>
     <!--Navbar-->
     <header>
+        <div class="site-name">
+            <span class="serba">Serba</span><span class="bisa">Bisa.</span>
+        </div>
         <div class="bx bx-menu" id="menu-icon"></div>
-        <span class="site-name">SerbaBisa.</span>
         <ul class="navbar">
             <li><a href="#beranda">Beranda</a></li>
             <li><a href="#jelajah">Jelajah</a></li>
@@ -26,15 +28,14 @@
     <!--Banner About-->
     <section class="banner" id="banner">
         <div class="banner-text">
-            <span>Semua Jenis Pekerjaan Tersedia Disini!</span>
-            <h1>Serba Bisa adalah Website yang Menyediakan<br>
-                Layanan Freelancer Unik bagi Masyarakat yang<br>
-                Menganggur.</h1>
+            <span>Semua Jenis Pekerjaan<br>Tersedia Disini!</span>
+            <h1>Serba Bisa adalah website yang menyediakan<br> layanan freelancer unik bagi masyarakat yang<br>
+                memerlukan pekerjaan, serta jasa yang<br> bermanfaat bagi pengguna</h1>
             <a href="#" class="btn-mitra">Daftar Mitra</a>
-            <a href="#" class="btn-pekerja">Cari Pekerjaan</a>
+            <a href="#" class="btn-pekerja">Cari Pekerjaan <i class="bx bx-right-arrow-alt"></i></a>
         </div>
         <div class="banner-img">
-            <img src="" alt="">
+            <img src="img/Group 14582639.png" alt="banner">
         </div>
     </section>
 
@@ -92,7 +93,8 @@
             <img src="img/layanan-jasa/teman belajar.png" alt="Teman Belajar">
             <div class="description">
                 <h2>Teman Belajar</h2>
-                <p>Teman Belajar adalah jenis layanan<br> belajar bersama mitra yang sudah<br> mumpuni di bidangnya melalui metode<br> yang mudah dan menyenangkan</p>
+                <p>Teman Belajar adalah jenis layanan<br> belajar bersama mitra yang sudah<br> mumpuni di bidangnya
+                    melalui metode<br> yang mudah dan menyenangkan</p>
             </div>
             <div class="picture">
                 <img src="img/layanan-jasa/PNG1.png" alt="img1">
@@ -102,7 +104,8 @@
             <img src="img/layanan-jasa/pekerja kasar.png" alt="Pekerja Kasar">
             <div class="description">
                 <h2>Pekerja Kasar</h2>
-                <p>Pekerja kasar adalah layanan jasa<br> bantuan bagi masyarakat yang<br> kesulitan atau tidak punya waktu<br> mengerjakan pekerjaan ringan di<br> rumah, kantor, atau instansi tertentu</p>
+                <p>Pekerja kasar adalah layanan jasa<br> bantuan bagi masyarakat yang<br> kesulitan atau tidak punya
+                    waktu<br> mengerjakan pekerjaan ringan di<br> rumah, kantor, atau instansi tertentu</p>
             </div>
             <div class="picture2">
                 <img src="img/layanan-jasa/PNG 3.png" alt="img2">
@@ -112,7 +115,8 @@
             <img src="img/layanan-jasa/tenaga profesional.png" alt="Tenaga Profesional">
             <div class="description">
                 <h2>Tenaga Profesional</h2>
-                <p>Tenaga Profesional merupakan layanan<br> yang menghadirkan para mitra<br> terverifikasi di bidangnya. Memiliki<br> pengalaman yang luar biasa serta<br> mampu memberikan pelayanan terbaik</p>
+                <p>Tenaga Profesional merupakan layanan<br> yang menghadirkan para mitra<br> terverifikasi di bidangnya.
+                    Memiliki<br> pengalaman yang luar biasa serta<br> mampu memberikan pelayanan terbaik</p>
             </div>
             <div class="picture3">
                 <img src="img/layanan-jasa/PNG 2.png" alt="img1">
@@ -124,17 +128,19 @@
             </div>
         </div>
     </section>
-     <!--Mengapa serba bisa?-->
-     <section class="reason" id="reason">
-        <div class="heading">
-            <h1>Mengapa SerbaBisa?</h1>
-        </div>
+    <!--Mengapa serba bisa?-->
+    <section class="reason" id="reason">
         <div class="vector">
             <img src="img/alasan/Vector.png" alt="img1">
-            {{-- <img id="vector2" src="img/alasan/objek.png" alt="img2"> --}}
+        </div>
+        <div class="vector2">
+            <img id="vector2" src="img/alasan/objek.png" alt="img2">
         </div>
         <div class="vector5">
             <img src="img/alasan/Group.png" alt="img5">
+        </div>
+        <div class="vector6">
+            <img src="img/alasan/Group (1).png" alt="img6">
         </div>
         <div class="about">
             <div class="about-img">
@@ -148,35 +154,39 @@
                 <img id="img2" src="{{ url('img/alasan/guru 1.png') }}" alt="pekerja2" />
             </div>
             <div class="about-content">
-                    <div class="reason-list">
-                        <img src="img/alasan/Vector (1).png" alt="alasan1">
-                        <div class="description">
-                            <h4>Pelayanan terjamin</h4>
-                            <p>
-                                Banyaknya pilihan mitra dengan berbagai jenis pelayanan yang disediakan,
-                                kami menghadirkan para ahli di bidangnya
-                            </p>
-                        </div>
-                    </div>
-                    <div class="reason-list">
-                        <img src="img/alasan/Vector(2).png" alt="alasan2">
-                        <div class="description">
-                            <h4>Mudah dan Cepat</h4>
-                            <p>
-                                SerbaBisa memberikan pelayanan yang mudah dan cepat serta hasil yang memuaskan bagi para konsumen 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="reason-list">
-                        <img src="img/alasan/Vector(3).png" alt="alasan3">
-                        <div class="description">
-                            <h4>Ada setiap saat</h4>
-                            <p>
-                                SerbaBisa Hadir dalam setiap waktu kapanpun anda memerlukan bantuan 
-                            </p>
-                        </div>
+                <div class="heading">
+                    <h1>Mengapa SerbaBisa?</h1>
+                </div>
+                <div class="reason-list">
+                    <img src="img/alasan/Vector (1).png" alt="alasan1">
+                    <div class="description">
+                        <h4>Pelayanan terjamin</h4>
+                        <p>
+                            Banyaknya pilihan mitra dengan berbagai jenis pelayanan yang disediakan,
+                            kami menghadirkan para ahli di bidangnya
+                        </p>
                     </div>
                 </div>
+                <div class="reason-list">
+                    <img src="img/alasan/Vector(2).png" alt="alasan2">
+                    <div class="description">
+                        <h4>Mudah dan Cepat</h4>
+                        <p>
+                            SerbaBisa memberikan pelayanan yang mudah dan cepat serta hasil yang memuaskan bagi para
+                            konsumen
+                        </p>
+                    </div>
+                </div>
+                <div class="reason-list">
+                    <img src="img/alasan/Vector(3).png" alt="alasan3">
+                    <div class="description">
+                        <h4>Ada setiap saat</h4>
+                        <p>
+                            SerbaBisa Hadir dalam setiap waktu kapanpun anda memerlukan bantuan
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -230,48 +240,22 @@
             <div class="gabung-card">
                 <h1>Bergabung Menjadi Mitra?</h1>
                 <h3>Daftar sekarang juga dan jadilah bagian dari seratusribu<br> lebih mitra terpilih kami!</h3>
+                <!-- Gambar-gambar di dalam card -->
+                <div class="card-images">
+                    <div class="picture-1">
+                        <img src="img/barchart.png" alt="barchart">
+                    </div>
+                    <div class="picture-2">
+                        <img src="img/piechart.png" alt="piechart">
+                    </div>
+                </div>
                 <a href="#"> Menjadi Mitra</a>
             </div>
         </div>
     </section>
-
-    <footer>
-        <div class="footer-container">
-            <div class="footer-section about">
-                <h2>SerbaBisa</h2>
-                <h10>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, atque eaque fugiat accusamus
-                    magnam aliquid saepe earum aperiam quae ipsum pariatur dolores eum vitae omnis ad, necessitatibus
-                    voluptates doloribus labore!
-                </h10>
-                <div class="kontak">
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
-                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
-                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                </div>
-            </div>
-            <div class="footer-section layanan">
-                <h4>Tentang Kami</h4>
-                <li>Layanan</li>
-                <li>Layanan</li>
-                <li>Layanan</li>
-            </div>
-            <div class="footer-section Tim">
-                <h4>Tim Kami</h4>
-                <li>Layanan </li>
-                <li>Layanan </li>
-                <li>Layanan </li>
-            </div>
-            <div class="footer-section Kontak Kami">
-                <h4>Kontak Kami</h4>
-                <li>Layanan Kami</li>
-                <li>Layanan Kami</li>
-                <li>Layanan Kami</li>
-            </div>
-        </div>
-        <div class="footer-bawah">Copyright &copy;</div>
-    </footer>
-    <script src="{{ url('js/main.js') }}"></script>
+    @include('partials.footer')
+    <script src="{{ url('js/nav.js') }}"></script>
+    <script src="{{ url('js/script.js') }}"></script>
 </body>
 
 </html>

@@ -14,6 +14,8 @@
 :root {
     --main-color: #039855;
     --second-color: #32D583;
+    --third-color:#00604D;
+    --fourth-color:#00604D;
 }
 
 section {
@@ -24,9 +26,6 @@ section {
     background-color: var(--main-color);
 }
 
-/* img {
-    width: 100%;
-} */
 
 header {
     position: fixed;
@@ -42,13 +41,23 @@ header {
     padding: 15px 10%;
     transition: 0.2s;
 }
+/* .banner-img{
+    transform: scale(1.2);
+} */
 
 .site-name {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--main-color);
-    margin-right: 20px; 
 }
+
+.site-name .serba {
+    color: var(--main-color); 
+}
+
+.site-name .bisa {
+    color: var(--second-color); 
+}
+
 
 .navbar {
     display: flex;
@@ -78,7 +87,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #D1FADF;
+    background: linear-gradient(to right, rgba(50, 213, 131, 0.79), rgba(204, 238, 153, 0.23));
     padding: 100px 10%; 
     gap: 2rem;
 }
@@ -92,19 +101,20 @@ header {
 }
 
 .banner-text span {
-    font-size: 3.0rem;
+    font-size: 2.2rem;
     font-weight: bolder;
     color: #1C274C;
     display: block; 
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .banner-text h1 {
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
     color: #000000;
     font-weight: 600;
     margin-bottom: 1.5rem; 
     line-height: 1.5; 
+    text-align:justify ;
 }
 
 .btn-mitra, .btn-pekerja {
@@ -117,14 +127,21 @@ header {
 }
 
 .btn-mitra {
-    color: var(--main-color);
+    color: black;
+    background-color: var(--second-color);
+    font-weight: bold;
 }
 
 .btn-pekerja {
-    background-color: var(--second-color);
+    background-color: var(--main-color);
     color: white;
+    font-weight: bold;
 }
-
+.btn-pekerja i {
+    margin-left: 8px; 
+    font-size: 2rem; 
+    vertical-align: middle;
+}
 .btn-mitra:hover {
     background-color: var(--second-color);
     color: white;
@@ -135,7 +152,7 @@ header {
 }
 
 
-/*Layanan*/
+/*=============================Layanan=========================================*/
 .heading h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -228,7 +245,7 @@ header {
     background-color: var(--second-color);
 }
 
-/*Mitra */
+/*==============================Mitra======================================= */
 .mitra .heading h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -236,7 +253,8 @@ header {
     text-align: center;
     margin-bottom: 2rem;
 }
-.mitra-container{
+
+.mitra-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -246,181 +264,160 @@ header {
     margin: 0 auto; 
     gap: 20px; 
 }
-.mitra-card{
+
+.mitra-card {
     width: 100%;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background: #fff;
+    background: #E3E3E2;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
 }
-.mitra-card:hover{
+
+.mitra-card:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
     transform: translateY(-3%);
 }
-.mitra-card img{
+
+.mitra-card img {
     width: 100%;
     height: 300px;
 }
-.mitra-card .content-mitra{
+
+.mitra-card .content-mitra {
     padding: 15px;
     text-align: center;
 }
-.mitra-card .content-mitra p{
-   line-height: 1.5;
-   color: black ;
+
+.mitra-card .content-mitra p {
+    line-height: 1.5;
+    color: black;
 }
-.mitra-card .content-mitra h3{
+
+.mitra-card .content-mitra h3 {
     font-weight: 400;
     margin-bottom: 15px;
     font-weight: bolder;
- }
- .mitra-card .content-mitra a {
+}
+
+.mitra-card .content-mitra a {
     text-decoration: none;
     display: inline-block;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     margin-top: 10px;
-    color: black;
-    border: 2px solid var(--second-color);
+    color: white;
+    background: linear-gradient(to right, #32D583, #CCEE99);
     border-radius: 4px;
-    transition: all 0.4s ease; 
-    background-color: transparent; 
+    transition: all 0.4s ease;
+    background-color: transparent;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .mitra-card .content-mitra a:hover {
-    background-color: var(--second-color); 
-    color: white; 
-    border-color: var(--second-color); 
+    color: black;
 }
 
-/* Section gabung */
+/* ====================================Section Gabung ==================================================*/
 .Gabung {
     width: 100%;
-    background-color: #fff; 
-    padding: 0 100px; 
+    background-color: #fff;
+    padding: 2rem 100px; 
     box-sizing: border-box;
-    display: flex;
+    display: flex; 
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .gabung-container {
     width: 100%;
-    max-width: 1200px; 
+    max-width: 1200px;
+    padding: 0; 
 }
 
 .gabung-card {
-    background-color: var(--main-color); 
-    color: #fff; 
-    padding: 2rem; 
-    text-align: center; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    width: 100%; 
-    max-width: 100%;
+    background-color: var(--fourth-color);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1200px; 
+    position: relative; 
+    overflow: hidden; 
 }
 
+.card-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem; 
+}
+
+.card-images div {
+    flex: 1 1 30%; 
+    max-width: 150px; 
+}
+
+.card-images {
+    position: relative; 
+    height: auto;
+    width: 100%; 
+}
+
+/* Mengatur gambar di dalam card */
+.picture-1 {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    top: -60px;
+    right: -970px;
+    z-index: 1;
+
+}
+.picture-2 {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    top: -320px;
+    left: -1080px;
+    z-index: 1;
+}
 .gabung-card h1 {
     font-size: 2rem;
-    margin-bottom: 3rem; 
-    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .gabung-card h3 {
     font-size: 1.25rem;
-    margin-bottom: 3rem; 
+    margin-top: 2rem;
+    font-weight: normal; 
 }
 
 .gabung-card a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--second-color); 
-    color: #fff; 
+    background-color: rgba(204, 238, 153, 0.3);
+    color: #fff;
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    margin-top: 1rem; 
 }
 
 .gabung-card a:hover {
-    background-color: #1a9a48; 
+    background-color: #1a9a48;
 }
 
-/* Footer Styling */
-footer {
-    margin-top: 3rem;
-    background-color: #e0e6e9; 
-    color: #343a40; 
-    padding: 2rem 0; 
-    font-family: Arial, sans-serif; 
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0 70px;
-}
-
-.footer-section {
-    flex-basis: calc(25% - 40px); 
-    margin-bottom: 20px;
-    padding: 0 20px; 
-}
-
-.footer-section h2 {
-    color: var(--main-color); 
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.footer-section h4 {
-    margin-top: 30px ;
-    color: #6c757d; 
-    font-size: 1rem;
-    margin-bottom: 10px;
-    font-weight: bolder;
-}
-
-.footer-section p, .footer-section li, .footer-section h10 {
-    font-size: 0.9em;
-    color: #6c757d; 
-    margin-bottom: 10px; 
-}
-
-.footer-section a {
-    display: inline-block;
-    color: #fff; 
-    background-color: var(--main-color); 
-    text-decoration: none;
-    margin-right: 10px;
-    font-size: 2rem; 
-    width: 50px; 
-    height: 50px;
-    line-height: 50px; 
-    border-radius: 50%; 
-    text-align: center; 
-    transition: background-color 0.3s ease; 
-}
-
-.footer-section a:hover {
-    background-color: #218838;
-}
-
-.footer-bawah {
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 10px;
-    border-top: 1px solid #555;
-    padding-bottom: 20px; 
-    background-color: #e0e6e9; 
-}
-
-/*layanan jasa*/
+/*============================================layanan jasa============================================================*/
 .layanan-jasa {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -508,14 +505,12 @@ footer {
     text-align: right;
 }
 
-/*reason*/
+
+/*=======================reason=================================*/
 .reason {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 50px 20px;
-    margin-bottom: 10px;
-    /* background-color:#1a9a48; */
-    
 }
 
 .reason .heading h1 {
@@ -525,7 +520,6 @@ footer {
     text-align: center;
     margin-bottom: 1rem;
 }
-
 
 .about {
     display: flex;
@@ -539,16 +533,16 @@ footer {
     height: 600px;
     width: 200px;
     margin-left: 200px;
-    margin-top: 4rem;
 }
-.about-img{
+
+.about-img {
     flex: 1;
     overflow: hidden;
     height: 600px;
     width: 100px;
-
 }
-#img1{
+
+#img1 {
     position: relative;
     max-width: 250px;
     height: 300px;
@@ -556,36 +550,25 @@ footer {
     z-index: 2;
     right: -100px;
 }
-#img2{
+
+#img2 {
     position: relative;
     max-width: 150px;
     height: 200px;
     align-items: left;
-    top: 100px; 
+    top: 100px;
     right: -30px;
     z-index: 3;
-}
-
-.reason-lists {
-    flex: 1 1 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: flex-start;
-    width: 100%; 
-    box-sizing: border-box;
-    padding: 10px;
-    margin-left: auto; 
 }
 
 .reason-list {
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    margin-left: auto; 
+    margin-left: auto;
 }
 
 .reason-list img {
@@ -605,46 +588,492 @@ footer {
 .description p {
     margin: 0;
     line-height: 1.6;
-} 
-.Vector{
+}
+
+.vector, .vector2, .vector3, .vector4, .vector5, .vector6 {
     position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.vector {
     height: 5px;
-    width: cals(130%-80px);
+    width: calc(100% - 80px);
     top: -10px;
-    right: 20px;
     z-index: 1;
 }
-#vector2{
-    top: -10px;
-    left: -10px;
-    right: -900px;
+
+.vector2 {
+    height: 40px;
+    top: -160px;
+    display: flex;
+    justify-content: flex-end;
 }
-.vector3{
-    position: relative;
+
+.vector2 img {
+    transform-origin: right center;
+    height: 100%;
+    width: auto;
+}
+
+.vector3 {
     height: 5px;
-    width: cals(130%-90px);
+    width: calc(100% - 90px);
     top: -10px;
     right: -220px;
     z-index: 1;
 }
-.vector4{
-    position: relative;
+
+.vector4 {
     height: 5px;
-    width: cals(130%-90px);
+    width: calc(130% - 90px);
     bottom: -280px;
     right: -50px;
     z-index: 1;
 }
-.vector5{
-    position: relative;
+
+.vector5 {
     height: 5px;
-    width: cals(130%-80px);
-    bottom: -550px;
+    width: calc(130% - 80px);
+    bottom: -640px;
     z-index: 2;
 }
 
+.vector6 {
+    height: 100px;
+    bottom: -625px;
+    display: flex;
+    justify-content: flex-end;
+}
 
-@media (max-width: 768px) {
+.vector6 img {
+    transform: scale(1.5);
+    transform-origin: right center;
+    height: 100%;
+    width: auto;
+}
+
+
+/* ===================================================Footer Styling============================================================ */
+footer {
+    margin-top: 3rem;
+    background-color: rgba(226, 219, 208, 0.3); 
+    color: black;
+    padding: 2rem 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    margin-top: 10px;
+    padding: 10px 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer-section {
+    margin-bottom: 10px;
+    padding: 0 10px;
+    flex: 1 1 calc(50% - 20px); 
+    box-sizing: border-box;
+}
+
+.footer-section span {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.name .serba {
+    color: var(--main-color); 
+}
+
+.name .bisa {
+    color: var(--second-color); 
+}
+
+.footer-layanan {
+    flex-basis: 60%;
+    max-width: 100%; 
+    display: flex; 
+    gap: 10px; 
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+
+.footer-section h4 {
+    margin-top: 0;
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 5px; 
+}
+
+.footer-section .about {
+    flex-basis: calc(50% - 20px); 
+}
+
+.footer-section .layanan {
+    flex-basis: calc(50% - 20px);
+}
+
+.footer-section p, .footer-section li, .footer-section h10 {
+    font-size: 0.9em;
+    color: #6c757d; 
+    margin-bottom: 10px; 
+}
+
+.footer-section a {
+    display: inline-block;
+    color: #fff; 
+    background-color: var(--third-color); 
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 2rem; 
+    width: 50px; 
+    height: 50px;
+    line-height: 50px; 
+    border-radius: 50%; 
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+}
+
+.footer-section a:hover {
+    background-color: #218838;
+}
+
+.footer-bawah {
+    margin-top: 20px;
+    padding: 10px 1rem;
+    border-top: 1px solid #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left; 
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.syarat {
+    display: flex;
+    gap: 20px; 
+}
+
+.syarat h6 {
+    margin: 0; 
+    font-size: inherit; 
+    font-weight: normal;
+}
+
+
+ @media(max-width:1150px){
+    header{
+        padding: 18px 7%;
+    }
+    section{
+        padding: 50px 7%;
+    }
+    .banner-text h1{
+        font-size:2rem ;
+    }
+    .banner-text h2{
+        font-size: 1.2rem;
+    }
+    .banner-img img {
+        max-width: 90%; 
+        height: auto; 
+    }
+    .banner {
+        width: 100%;
+        background: linear-gradient(to right, rgba(50, 213, 131, 0.79), rgba(204, 238, 153, 0.23));
+        padding: 100px 10%; 
+    }
+        
+    .mitra .heading h1 {
+        font-size: 1.8rem;
+    }
+
+    .mitra-container {
+        max-width: 1000px;
+        gap: 15px;
+    }
+
+    .mitra-card img {
+        height: 250px;
+    }
+
+    .mitra-card .content-mitra h3 {
+        font-size: 1.2rem;
+    }
+
+    .mitra-card .content-mitra p {
+        font-size: 0.9rem;
+    }
+    .reason .heading h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-content {
+        width: 180px;
+        margin-left: 150px;
+    }
+
+    .about-img {
+        width: 120px;
+    }
+
+    #img1 {
+        max-width: 230px;
+        height: 280px;
+        right: -80px;
+    }
+
+    #img2 {
+        max-width: 140px;
+        height: 180px;
+        right: -20px;
+    }
+
+    .reason-list img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .description h4 {
+        font-size: 1.1em;
+    }
+
+    .description p {
+        font-size: 0.9em;
+    }
+    .layanan-jasa .service {
+        width: 90%;
+    }
+
+    .layanan-jasa .service img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .picture, .picture2, .picture3, .picture4 {
+        width: calc(130% - 60px);
+    }
+
+    .picture {
+        left: 300px;
+        transform: scale(1.8);
+    }
+
+    .picture2 {
+        right: 320px;
+        transform: scale(1.3);
+    }
+
+    .picture3 {
+        left: 450px;
+        transform: scale(1.6);
+    }
+
+    .picture4 {
+        right: 50px;
+        transform: scale(1.8);
+    }
+ }
+ @media(max-width:991px){
+    header{
+        padding: 18px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+    .banner {
+        padding: 60px 6%;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .banner-text, .banner-img {
+        width: 100%;
+    }
+
+    .banner-text span {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .banner-text h1 {
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .btn-mitra, .btn-pekerja {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .btn-pekerja i {
+        font-size: 1.6rem;
+    }
+    .banner-img img {
+        max-width: 80%; 
+        height: auto; 
+    }
+    .banner {
+        width: 100%;
+        background: linear-gradient(to right, rgba(50, 213, 131, 0.79), rgba(204, 238, 153, 0.23));
+        padding: 100px 10%; 
+    }
+    .mitra .heading h1 {
+        font-size: 1.6rem;
+    }
+
+    .mitra-container {
+        max-width: 800px;
+        gap: 10px;
+    }
+
+    .mitra-card img {
+        height: 200px;
+    }
+
+    .mitra-card .content-mitra h3 {
+        font-size: 1rem;
+    }
+
+    .mitra-card .content-mitra p {
+        font-size: 0.8rem;
+    }
+    .reason .heading h1 {
+        font-size: 1.6rem;
+    }
+
+    .about-content {
+        width: 160px;
+        margin-left: 100px;
+    }
+
+    .about-img {
+        width: 150px;
+    }
+
+    #img1 {
+        max-width: 210px;
+        height: 250px;
+        right: -60px;
+    }
+
+    #img2 {
+        max-width: 120px;
+        height: 160px;
+        right: -10px;
+    }
+
+    .reason-list img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .description h4 {
+        font-size: 1em;
+    }
+
+    .description p {
+        font-size: 0.8em;
+    }
+    .layanan-jasa .heading h1 {
+        font-size: 1.6rem;
+    }
+
+    .layanan-jasa .service {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .layanan-jasa .service img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .picture, .picture2, .picture3, .picture4 {
+        width: calc(130% - 40px);
+    }
+
+    .picture {
+        left: 200px;
+        transform: scale(1.5);
+    }
+
+    .picture2 {
+        right: 200px;
+        transform: scale(1.2);
+    }
+
+    .picture3 {
+        left: 300px;
+        transform: scale(1.3);
+    }
+
+    .picture4 {
+        right: 20px;
+        transform: scale(1.5);
+    }
+    
+ }
+  @media(max-width:768px){
+    header{
+        padding: 11px 4%;
+    }
+    #menu-icon{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: -500px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        box-shadow: 0 4px 4px rbg(14 55 54 /14%);
+        border-top:  2px solid var(--main-color);
+        transition: 0.2s;
+        text-align: left;
+    }
+    .navbar .active {
+        top: 100%;
+    }
+    .navbar a{
+        padding: 1.5rem;
+        display: block;
+        color: var(--second-color);
+    }
+    .banner-text span{
+        font-size: 0.9rem;
+    }
+    .banner-text h1{
+        font-size: 1rem;
+    }
+    .banner-text h2{
+        font-size: 1.2rem;
+    }
+    .btn-mitra, .btn-pekerja {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    .btn-pekerja i {
+        font-size: 1.4rem;
+    }
+    .banner-img img {
+        max-width: 70%; 
+        height: auto;
+    }
+    .banner {
+        width: 100%;
+        background: linear-gradient(to right, rgba(50, 213, 131, 0.79), rgba(204, 238, 153, 0.23));
+        padding: 100px 10%; 
+    }
     .layanan-jasa .service {
         flex-direction: column;
         text-align: center;
@@ -666,7 +1095,276 @@ footer {
     .footer-section {
         flex-basis: 100%;
         padding: 0;
+        font-size: 0.8em; 
+    }
+
+    .footer-container {
+        font-size: 0.8em; 
+    }
+
+    .footer-section span {
+        font-size: 1.2rem; 
+    }
+
+    .footer-section a {
+        font-size: 1.2rem; 
+        width: 35px; 
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .footer-bawah {
+        font-size: 0.8em; 
+    }
+
+    .syarat h6 {
+        font-size: 0.8em; 
+    }
+    .mitra .heading h1 {
+        font-size: 1.4rem;
+    }
+
+    .mitra-container {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mitra-card {
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .mitra-card img {
+        height: 180px;
+    }
+
+    .mitra-card .content-mitra h3 {
+        font-size: 0.9rem;
+    }
+
+    .mitra-card .content-mitra p {
+        font-size: 0.7rem;
+    }
+
+    .mitra-card .content-mitra a {
+        padding: 8px 16px;
+        font-size: 0.7rem;
+    }
+    .reason .heading h1 {
+        font-size: 1.4rem;
+    }
+
+    .about-content {
+        width: 140px;
+        margin-left: 50px;
+    }
+
+    .about-img {
+        width: 200px;
+    }
+
+    #img1 {
+        max-width: 180px;
+        height: 220px;
+        right: -40px;
+    }
+
+    #img2 {
+        max-width: 100px;
+        height: 140px;
+        right: 0;
+    }
+
+    .reason-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reason-list img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .description h4 {
+        font-size: 0.9em;
+    }
+
+    .description p {
+        font-size: 0.7em;
+    }
+    .layanan-jasa .heading h1 {
+        font-size: 1.4rem;
+    }
+
+    .layanan-jasa .service {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .layanan-jasa .service img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .picture, .picture2, .picture3, .picture4 {
+        width: calc(130% - 20px);
+    }
+
+    .picture {
+        left: 100px;
+        transform: scale(1.3);
+    }
+
+    .picture2 {
+        right: 100px;
+        transform: scale(1.1);
+    }
+
+    .picture3 {
+        left: 150px;
+        transform: scale(1.2);
+    }
+
+    .picture4 {
+        right: 10px;
+        transform: scale(1.3);
+    }
+ }
+ @media (max-width: 320px) {
+    .mitra .heading h1 {
+        font-size: 1.2rem;
+    }
+
+    .mitra-container {
+        max-width: 100%;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .mitra-card {
+        width: 50%;
+        margin: 5px 0;
+    }
+
+    .mitra-card img {
+        height: 150px;
+    }
+
+    .mitra-card .content-mitra h3 {
+        font-size: 0.8rem;
+    }
+
+    .mitra-card .content-mitra p {
+        font-size: 0.6rem;
+    }
+
+    .mitra-card .content-mitra a {
+        padding: 6px 12px;
+        font-size: 0.6rem;
+    }
+    .reason .heading h1 {
+        font-size: 1.2rem;
+    }
+
+    .about-content {
+        width: 100px;
+        margin-left: 0;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    #img1 {
+        max-width: 150px;
+        height: 200px;
+        right: 0;
+    }
+
+    #img2 {
+        max-width: 80px;
+        height: 120px;
+        right: 0;
+    }
+
+    .reason-list img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .description h4 {
+        font-size: 0.8em;
+    }
+
+    .description p {
+        font-size: 0.6em;
+    }
+    .layanan-jasa .heading h1 {
+        font-size: 1.2rem;
+    }
+
+    .layanan-jasa .service {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .layanan-jasa .service img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .picture, .picture2, .picture3, .picture4 {
+        width: calc(130% - 10px);
+    }
+
+    .picture {
+        left: 50px;
+        transform: scale(1.1);
+    }
+
+    .picture2 {
+        right: 50px;
+        transform: scale(1.05);
+    }
+
+    .picture3 {
+        left: 100px;
+        transform: scale(1.1);
+    }
+
+    .picture4 {
+        right: 0;
+        transform: scale(1.2);
+    }
+    .picture, .picture2, .picture3, .picture4 {
+        display: none; 
+    }
+    .Gabung {
+        padding: 1rem; 
+    }
+
+    .gabung-container {
+        padding: 0;
+        width: 100%;
+    }
+    .gabung-card {
+        padding: 1rem; 
+        text-align: center;
+        max-width: 100%; 
+
+    .gabung-card h1 {
+        font-size: 1.5rem; 
+    }
+
+    .gabung-card h3 {
+        font-size: 1rem; 
+    }
+
+    .gabung-card a {
+        padding: 8px 16px; 
+        font-size: 0.9rem; 
     }
 }
-
-
+ }

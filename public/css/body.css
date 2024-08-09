@@ -1,0 +1,203 @@
+:root {
+    --main-color: #039855;
+    --second-color: #32D583;
+    --third-color:#00604D;
+    --fourth-color:#00604D;
+}
+
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Profile picture */
+.card-body img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.img-display img {
+    width: 200px;
+    height: 100%;
+    border-radius: 0%;
+}
+
+/* Sidebar */
+.sidebar .card-body {
+    text-align: center;
+}
+
+.sidebar .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sidebar .card-text {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.sidebar .my-3 {
+    margin-bottom: 20px;
+}
+
+.sidebar p {
+    margin-bottom: 10px;
+    text-align: left;
+    color: black;
+}
+.sidebar h5{
+    color: black;
+}
+
+.sidebar .font-weight-bold {
+    font-weight: bold;
+}
+
+.sidebar .text-green {
+    color: var(--main-color);
+}
+
+.text-green {
+    color: var(--main-color);
+}
+
+.border-top {
+    border-top: 2px solid rgba(6, 6, 6, 0.4); 
+    padding-top: 10px;
+    margin-top: 10px; 
+}
+
+/* Navigation tabs */
+.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--main-color);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #fff;
+    border-bottom: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+
+/* Biodata section */
+.custom-border {
+    border: 2px solid rgba(6, 6, 6, 0.4); 
+    padding: 2px; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tab-content {
+    padding: 20px;
+}
+
+.biodata .text-center {
+    text-align: center;
+}
+
+.biodata img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.biodata button {
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.biodata button:hover {
+    background-color: var(--fourth-color);
+}
+
+.biodata .small {
+    font-size: 0.8em;
+    color: #6c757d;
+    text-align: justify;
+    padding: 10px;
+}
+
+.biodata {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 10px;
+}
+
+.biodata h6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1 / -1;
+    margin-top: 20px;
+    margin-bottom: 0;
+    gap: 0px;
+    font-weight: bold;
+}
+
+.biodata .label {
+    font-weight: normal;
+}
+
+.biodata .value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.biodata .value a {
+    margin-left: 10px;
+    color: var(--main-color);
+    text-decoration: none;
+}
+.value a .sidebar a{
+    color: var(--second-color);
+}
+
+.biodata .value a:hover {
+    text-decoration: underline;
+}
+.biodata .value .text-green {
+    color: var(--main-color);
+}
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        margin-bottom: 20px;
+    }
+}

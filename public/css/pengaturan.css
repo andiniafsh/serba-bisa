@@ -1,0 +1,79 @@
+
+.custom-border.content {
+    border-right: 2px solid black;
+    padding-left: 1rem;
+    height: max-row;
+   
+}
+
+.custom-border h1 {
+    font-size: 1.5rem; 
+    margin-top: 10px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.custom-border h4 {
+    font-size: 0.8rem; 
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+
+.custom-border p {
+    padding: 0 20px;
+    position: relative;
+    padding-bottom: 0.5rem; 
+    border-bottom: 2px solid green; 
+    font-size: 0.8rem; 
+    margin-bottom: 1rem;
+    color: green;
+    text-align: left;
+}
+
+
+.custom-border p::after {
+    content: '>'; 
+    position: absolute; 
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 1.2rem; 
+    color: green; 
+}
+
+.custom-border p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.login-activity {
+    margin-top: 20px;
+}
+.login-activity img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.login-activity p {
+    margin-bottom: 5px;
+}
+.login-activity .status {
+    color: #039855;
+    font-weight: bold;
+}
+.login-activity .edit-link {
+    cursor: pointer;
+    color: #039855;
+}
+.login-activity .edit-link:hover {
+    text-decoration: underline;
+}
+.content h5 {
+    text-align: center;
+    padding: 1rem; 
+}
+.content h6 {
+    text-align: center;
+}
+
