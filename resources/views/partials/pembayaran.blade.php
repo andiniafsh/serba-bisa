@@ -24,7 +24,7 @@
                         </div>
                         <div class="my-3 border-top">
                             <p class="font-weight-bold">Profil</p>
-                            <p><a href="#" class="text-secondary">Ubah Toko Saya</a></p>
+                            <p><a href="/profil-mitra" class="text-secondary">Ubah Toko Saya</a></p>
                             <p><a href="/" class="text-secondary">Logout</a></p>
                         </div>
                     </div>
@@ -36,10 +36,10 @@
                     <div class="card-body">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" id="biodata-tab" href="/biodata" role="tab" aria-controls="biodata" aria-selected="true">Biodata Diri</a>
+                                <a class="nav-link" id="biodata-tab" href="/biodata" role="tab" aria-controls="biodata" aria-selected="true">Biodata Diri</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="pembayaran-tab" href="/pembayaran" role="tab" aria-controls="pembayaran" aria-selected="false">Pembayaran</a>
+                                <a class="nav-link active" id="pembayaran-tab" href="/pembayaran" role="tab" aria-controls="pembayaran" aria-selected="false">Pembayaran</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="alamat-tab" href="/alamat" role="tab" aria-controls="alamat" aria-selected="false">Daftar Alamat</a>

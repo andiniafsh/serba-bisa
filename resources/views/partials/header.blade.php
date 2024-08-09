@@ -14,7 +14,9 @@
             </div>
 
             <div class="wrap-img-shop mx-3" onclick="on()">
-                <img class="img-shop" src="img/profil/shopping-cart.png" alt="">
+                <a href="/shoppingpage-keranjang">
+                    <img class="img-shop" src="img/profil/shopping-cart.png" alt="">
+                </a>
             </div>
             <div class="wrap-img-bell mx-3" onclick="on()">
                 <img class="img-bell" src="img/profil/bell.png" alt="">
@@ -26,7 +28,7 @@
             <span class="mr-3 line">|</span>
 
             <div class="d-flex">
-                <a href="#">
+                <a href="/profil-mitra">
                     <img src="img/profil/Frame 1.png" alt="Profil" class="profile-icon ml-4" title="Profil">
                     <span class="profile-name">Toko Alif</span>
                 </a>

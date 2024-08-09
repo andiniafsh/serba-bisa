@@ -43,7 +43,9 @@
                                 <p><i class="fas fa-map-marker-alt"></i> Poyeski</p>
                                 <p>Gubeng Jaya I No. 39 Gubeng, Gubeng, Surabaya Pagar Hitam, Ada Toko</p>
                                 <p>6281333624922</p>
-                                <button class="btn btn-success">Ganti Alamat</button>
+                                <a href="/alamat">
+                                    <button class="btn btn-success">Ganti Alamat</button>
+                                </a>
                             </div>
                         </div>
         

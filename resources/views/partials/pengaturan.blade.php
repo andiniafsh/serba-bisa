@@ -24,7 +24,7 @@
                     </div>
                     <div class="my-3 border-top">
                         <p class="font-weight-bold">Profil</p>
-                        <p><a href="#" class="text-secondary">Ubah Toko Saya</a></p>
+                        <p><a href="/profil-mitra" class="text-secondary">Ubah Toko Saya</a></p>
                         <p><a href="/" class="text-secondary">Logout</a></p>
                     </div>
                 </div>

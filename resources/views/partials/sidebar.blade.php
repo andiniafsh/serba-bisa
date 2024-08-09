@@ -23,7 +23,7 @@
 
             <div class="my-3 border-top">
                 <nav class="nav flex-column" style="text-align: left;">
-                    <a class="nav-link active font-weight-bold text-green" href="#">
+                    <a class="nav-link active font-weight-bold text-green" href="/shoppingpage">
                         <i class="fa-solid fa-house"></i>
                         Home
                     </a>
@@ -41,16 +41,19 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item sale" href="#">
-                                    <img src="https://via.placeholder.com/20x20.png?text=SALE" alt="SALE Icon"> Tambah Jasa
+                                <a class="dropdown-item sale" href="/tambah-jasa">
+                                    Tambah Jasa
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">Daftar Jasa</a>
+                                <a class="dropdown-item" href="/edit-jasa">
+                                    Daftar Jasa
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </nav>
+                
                 {{-- <nav class="nav flex-column" style="text-align: left;">
                     <a class="nav-link active font-weight-bold text-green" href="#">
                         <i class='bx bx-food-menu'></i>
