@@ -82,7 +82,7 @@
                 </div>
             </div>
             <div class="col-md-6 d-none d-md-block">
-                <img src="img/Foto-Daftar-Mitra.png" alt="Illustration" class="img-fluid">
+                <img src="img/daftar-jasa1.png" alt="Illustration" class="img-fluid">
             </div>
         </div>
     </div>
