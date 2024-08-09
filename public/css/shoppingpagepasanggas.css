@@ -1,0 +1,45 @@
+/* Custom CSS */
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.service-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-details {
+    margin-top: 20px;
+}
+
+.service-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-header h2 {
+    margin-bottom: 0;
+}
+
+.service-status {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.status-open {
+    background-color: #28a745;
+}
+
+.status-closed {
+    background-color: #dc3545;
+}
+
+.review {
+    margin-top: 40px;
+}
+
