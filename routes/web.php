@@ -35,6 +35,7 @@ route::get('/daftar', function () {
 
 route::get('/test', function () {
     return view('test');
+});
 
 //profil akun
 Route::get('/pembayaran', function () {
@@ -56,7 +57,11 @@ Route::get('/pengaturan', function () {
     return view('layout/profil-akun-Pengaturan');
 });
 Route::get('/tambah-jasa', function () {
-    return view('tambah_jasa');
+    return view('layout/profil-akun-tambah-jasa');
+});
+
+Route::get('/edit-jasa', function () {
+    return view('layout/profil-akun-edit-jasa');
 });
 
 Route::get('/shoppingpage', function () {
