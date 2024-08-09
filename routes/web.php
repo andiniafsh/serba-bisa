@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('layout/dashboard-landingPage');
 });
 
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
 Route::get('/daftar-mitra-1', function () {
     return view('daftar_mitra_1');
 });
@@ -27,14 +35,6 @@ Route::get('/daftar-mitra-2', function () {
 
 Route::get('/daftar-mitra-3', function () {
     return view('daftar_mitra_3');
-});
-
-route::get('/daftar', function () {
-    return view('daftar');
-});
-
-route::get('/test', function () {
-    return view('test');
 });
 
 //profil akun
