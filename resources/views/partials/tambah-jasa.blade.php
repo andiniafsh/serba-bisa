@@ -1,71 +1,6 @@
 <div class="container mt-5">
     <div class="row">
-        {{-- sidebar --}}
-        <div class="col-md-4 sidebar">
-            <div class="card">
-                <div class="card-body text-center">
-                    {{-- profilpict --}}
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="/img/profil/Frame 1.png" class="rounded-circle mb-3" alt="Profile Pict">
-                        </div>
-                        <div class="col-6 align-items-start">
-                            <h5 class="text-start">Mas Alif</h5>
-                            <button type="button" class="btn btn-success" disabled>Pekerja Kasar</button>  
-                        </div>
-                    </div>
-                    
-                    {{-- jadwal dan total --}}
-                    <div class="my-3">
-                        <p>Jadwal Buka <span style="font-weight: bold">08.00-18.00</span></p>
-                        <p>Total Transaksi <span style="font-weight: bold">5</span></p>
-                    </div>
-
-                    {{-- navigasi --}}
-
-                    <div class="my-3 border-top">
-                        <nav class="nav flex-column" style="text-align: left;">
-                            <a class="nav-link active font-weight-bold text-green" href="#">
-                                <i class="fa-solid fa-house"></i>
-                                Home
-                            </a>
-                        </nav>
-                        <nav class="nav flex-column" style="text-align: left;">
-                            <a class="nav-link active font-weight-bold text-green" href="#">
-                                <i class='bx bx-message-rounded-detail'></i>
-                                Pesan Chat
-                            </a>
-                        </nav>
-                        <nav class="nav flex-column" style="text-align: left;">
-                            <div class="dropdown">
-                                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Jasa Yang Dijual
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item sale" href="#">
-                                        <img src="https://via.placeholder.com/20x20.png?text=SALE" alt="SALE Icon"> Tambah Jasa
-                                    </a>
-                                    <a class="dropdown-item" href="#">Daftar Jasa</a>
-                                </div>
-                            </div>
-                        </nav>
-                        <nav class="nav flex-column" style="text-align: left;">
-                            <a class="nav-link active font-weight-bold text-green" href="#">
-                                <i class='bx bx-food-menu'></i>
-                                Pesanan
-                            </a>
-                        </nav>
-                        <nav class="nav flex-column" style="text-align: left;">
-                            <a class="nav-link active font-weight-bold text-green" href="#">
-                                <i class='bx bx-smile' ></i>
-                                Ulasan
-                            </a>
-                        </nav>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
+        @include('partials.sidebar')
 
         {{-- main content --}}
         <div class="col-md-8">
@@ -84,8 +19,9 @@
                         <div class="col-8">
                             <select class="form-select" aria-label="Default select example">
                                 <option selected>Pilih Status</option>
-                                <option value="1">Aktif</option>
-                                <option value="2">Tidak Aktif</option>
+                                <option value="1">Sedang Menerima pesanan</option>
+                                <option value="2">Buka</option>
+                                <option value="3">Tutup</option>
                             </select>
                         </div>
                     </div>                    
@@ -115,43 +51,43 @@
                             <p>Apabila tidak ada tagar yang sesuai, Anda bisa memilih tagar lainnya</p>
                         </div>
                         <div class="col-8">
-                            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                            <label class="btn btn-secondary" for="btn-check">
+                            <input type="checkbox" class="btn-check" id="btn-check-1" autocomplete="off">
+                            <label class="btn btn-secondary" for="btn-check-1">
                                 <i class='bx bxs-hard-hat'></i>
                                 Tukang Bangunan
                             </label>
-                            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                            <label class="btn btn-secondary" for="btn-check">
-                                <i class='bx bx-color' ></i>
+                            <input type="checkbox" class="btn-check" id="btn-check-2" autocomplete="off">
+                            <label class="btn btn-secondary" for="btn-check-2">
+                                <i class='bx bx-color'></i>
                                 Tambal Ban
                             </label>
-                            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                            <label class="btn btn-secondary" for="btn-check">
+                            <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off">
+                            <label class="btn btn-secondary" for="btn-check-3">
                                 <i class='bx bxs-wrench'></i>
                                 Service Kendaraan
                             </label>
-                            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                            <label class="btn btn-secondary" for="btn-check">
+                            <input type="checkbox" class="btn-check" id="btn-check-4" autocomplete="off">
+                            <label class="btn btn-secondary" for="btn-check-4">
                                 <i class='bx bxs-home-smile'></i>
                                 Cleaning Service
                             </label>
-                            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                            <label class="btn btn-secondary" for="btn-check">
+                            <input type="checkbox" class="btn-check" id="btn-check-5" autocomplete="off">
+                            <label class="btn btn-secondary" for="btn-check-5">
                                 <i class='bx bxs-chat'></i>
                                 Teman Belajar Bahasa Inggris
                             </label>
-                            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                            <label class="btn btn-secondary" for="btn-check">
+                            <input type="checkbox" class="btn-check" id="btn-check-6" autocomplete="off">
+                            <label class="btn btn-secondary" for="btn-check-6">
                                 <i class='bx bx-code-alt'></i>
                                 Teman Belajar Web Dev
                             </label>
-                            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                            <label class="btn btn-secondary" for="btn-check">
-                                <i class='bx bxs-leaf' ></i>
+                            <input type="checkbox" class="btn-check" id="btn-check-7" autocomplete="off">
+                            <label class="btn btn-secondary" for="btn-check-7">
+                                <i class='bx bxs-leaf'></i>
                                 Potong Rumput dan Berkebun
                             </label>
-                            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                            <label class="btn btn-secondary" for="btn-check">
+                            <input type="checkbox" class="btn-check" id="btn-check-8" autocomplete="off">
+                            <label class="btn btn-secondary" for="btn-check-8">
                                 <i class='bx bx-file-blank'></i>
                                 Lainnya
                             </label>

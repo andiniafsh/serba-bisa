@@ -30,6 +30,12 @@ body {
     border-radius: 50%;
 }
 
+.img-display img {
+    width: 200px;
+    height: 100%;
+    border-radius: 0%;
+}
+
 /* Sidebar */
 .sidebar .card-body {
     text-align: center;
