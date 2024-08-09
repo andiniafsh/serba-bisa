@@ -17,6 +17,25 @@ Route::get('/', function () {
     return view('layout/dashboard-landingPage');
 });
 
+Route::get('/daftar-mitra-1', function () {
+    return view('daftar_mitra_1');
+});
+
+Route::get('/daftar-mitra-2', function () {
+    return view('daftar_mitra_2');
+});
+
+Route::get('/daftar-mitra-3', function () {
+    return view('daftar_mitra_3');
+});
+
+route::get('/daftar', function () {
+    return view('daftar');
+});
+
+route::get('/test', function () {
+    return view('test');
+
 //profil akun
 Route::get('/pembayaran', function () {
     return view('layout/profil-akun-pembayaran');
