@@ -26,10 +26,16 @@
             <span class="mr-3 line">|</span>
 
             <div class="d-flex">
-                <img src="img/profil/Frame 1.png" alt="Profil" class="profile-icon" title="Profil">
-                <span class="profile-name">Mas Alif</span>
-                <img src="img/profil/Frame 2.png" alt="Profil" class="profile-icon ml-3" title="Profil">
-                <span class="profile-name">Poyeksi</span>
+                <a href="#">
+                    <img src="img/profil/Frame 1.png" alt="Profil" class="profile-icon ml-4" title="Profil">
+                    <span class="profile-name">Toko Alif</span>
+                </a>
+                
+                <a href="/biodata">
+                    <img src="img/profil/Frame 2.png" alt="Profil" class="profile-icon ml-3" title="Profil">
+                    <span class="profile-name">Poyeksi</span>
+                </a>
+                
             </div>
             
         </div>

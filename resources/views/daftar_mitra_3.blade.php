@@ -176,7 +176,7 @@
                                 </button>
                             </a>
 
-                            <a href="/">
+                            <a href="/shoppingpage">
                                 <button type="button" class="btn btn-success">Selesai</button>
                             </a>
                         </div>
