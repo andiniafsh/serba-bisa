@@ -118,8 +118,10 @@
         .btn-success {
             border-radius: 5px;
             flex: 1;
-            width: 100%;
+            width: 390px;
         }
+
+
 
         @media (min-width: 768px) {
             .img-fluid {
@@ -194,7 +196,7 @@
                            
                             
                             <a href="/daftar-mitra-2">
-                                <button type="submit" class="btn btn-success" href="/daftar-mitra-2">Lanjutkan</button>
+                                <button type="button" class="btn btn-success">Lanjutkan</button>
                             </a>
                             
                         </div>

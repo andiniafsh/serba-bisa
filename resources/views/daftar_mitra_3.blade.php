@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Mitra 2</title>
+    <title>Daftar Mitra 3</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -151,31 +151,20 @@
                     <h3 class="text-center mb-4">Daftar Mitra</h3>
                     <div class="progress mb-4">
                         <div class="progress-bar orange"></div>
-                        <div class="progress-bar"></div>
                         <div class="progress-bar red"></div>
+                        <div class="progress-bar"></div>
                     </div>
 
                     <form class="d-flex flex-column flex-grow-1">
 
                         <div class="form-group">
-                            <label for="rekening">Pilih Rekening Pembayaran</label>
-                                <div>    
-                                    <select class="form-select" id="rekening" placeholder="pilih salah satu">
-                                        <option selected>Pilih Salah satu</option>
-                                        <option value="1">BCA</option>
-                                        <option value="2">BNI</option>
-                                    </select>
-                                </div>
+                            <label for="email">Alamat Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Masukkan Alamat Email Anda">
                         </div>
 
                         <div class="form-group">
-                            <label for="nomorRekening">Masukkan Nomor Rekening</label>
-                            <input type="integer" class="form-control" id="nomorRekening" placeholder="Masukkan Nomor Rekening Anda">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="pinTransaksi">Masukkan PIN Transaksi</label>
-                            <input type="integer" class="form-control" id="pinTransaksi" placeholder="Kode berupa angka 6 digit">
+                            <label for="nomorTelepon">Nomor Telepon</label>
+                            <input type="integer" class="form-control" id="pinTransaksi" placeholder="Masukkan Nomor Telepon">
                         </div>
 
                         <hr class="form-divider">
@@ -187,8 +176,8 @@
                                 </button>
                             </a>
 
-                            <a href="/daftar-mitra-3">
-                                <button type="button" class="btn btn-success">Lanjutkan</button>
+                            <a href="/">
+                                <button type="button" class="btn btn-success">Selesai</button>
                             </a>
                         </div>
                     </form>

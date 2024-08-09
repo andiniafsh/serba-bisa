@@ -25,6 +25,10 @@ Route::get('/daftar-mitra-2', function () {
     return view('daftar_mitra_2');
 });
 
+Route::get('/daftar-mitra-3', function () {
+    return view('daftar_mitra_3');
+});
+
 route::get('/daftar', function () {
     return view('daftar');
 });
