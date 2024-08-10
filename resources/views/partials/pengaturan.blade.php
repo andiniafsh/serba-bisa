@@ -44,7 +44,7 @@
                                             aria-controls="biodata" aria-selected="true">Biodata Diri</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="pembayaran-tab"  href="/pembayaran" role="tab"
+                                        <a class="nav-link" id="pembayaran-tab"  href="/pembayaran" role="tab"
                                             aria-controls="pembayaran" aria-selected="false">Pembayaran</a>
                                     </li>
                                     <li class="nav-item">
@@ -52,7 +52,7 @@
                                             aria-controls="alamat" aria-selected="false">Daftar Alamat</a>
                                     </li>
                                     <li class="nav-item active">
-                                        <a class="nav-link" id="keamanan-tab"  href="/pengaturan" role="tab"
+                                        <a class="nav-link active" id="keamanan-tab"  href="/pengaturan" role="tab"
                                             aria-controls="keamanan" aria-selected="false">Keamanan</a>
             
                                     </li>
