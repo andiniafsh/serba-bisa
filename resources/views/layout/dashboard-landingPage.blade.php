@@ -23,8 +23,8 @@
         </div>
         <ul id="menu-list" class="hidden">
             <li><a href="#beranda">Beranda</a></li>
-            <li><a href="#jelajah">Jelajah</a></li>
-            <li><a href="#kontak">Kontak</a></li>
+            <li><a href="#popular-services">Jelajah</a></li>
+            <li><a href="#footer">Kontak</a></li>
             <li><a href="#masuk">Masuk</a></li>
             <li><a href="#daftar">Daftar</a></li>
         </ul>
@@ -55,27 +55,42 @@
             <div class="popular-container">
                 <div class="box">
                     <div class="box-img">
-                        <img src="img/Populer Picture 1.png" alt="Gambar Populer 1">
+                        <img src="img/landing/layanan 1.png" alt="Gambar Populer 1">
                     </div>
                 </div>
                 <div class="box">
                     <div class="box-img">
-                        <img src="img/Populer Picture 1.png" alt="Gambar Populer 1">
+                        <img src="img/landing/layanan 6.png" alt="Gambar Populer 1">
                     </div>
                 </div>
                 <div class="box">
                     <div class="box-img">
-                        <img src="img/Populer Picture 1.png" alt="Gambar Populer 1">
+                        <img src="img/landing/layanan 2.png" alt="Gambar Populer 1">
                     </div>
                 </div>
                 <div class="box">
                     <div class="box-img">
-                        <img src="img/Populer Picture 1.png" alt="Gambar Populer 1">
+                        <img src="img/landing/layanan 3.png" alt="Gambar Populer 1">
                     </div>
                 </div>
                 <div class="box">
                     <div class="box-img">
-                        <img src="img/Populer Picture 1.png" alt="Gambar Populer 1">
+                        <img src="img/landing/layanan 4.png" alt="Gambar Populer 1">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/landing/layanan 5.png" alt="Gambar Populer 1">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/landing/layanan 6.png" alt="Gambar Populer 1">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/landing/layanan 7.png" alt="Gambar Populer 1">
                     </div>
                 </div>
             </div>
