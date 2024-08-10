@@ -30,6 +30,12 @@ body {
     border-radius: 50%;
 }
 
+.img-display img {
+    width: 200px;
+    height: 100%;
+    border-radius: 0%;
+}
+
 /* Sidebar */
 .sidebar .card-body {
     text-align: center;
@@ -66,6 +72,11 @@ body {
 .sidebar .text-green {
     color: var(--main-color);
 }
+
+.text-green {
+    color: var(--main-color);
+}
+
 .border-top {
     border-top: 2px solid rgba(6, 6, 6, 0.4); 
     padding-top: 10px;

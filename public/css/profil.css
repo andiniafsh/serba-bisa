@@ -31,8 +31,23 @@
     color: var(--second-color); 
 }
 
+
+.menu-bar img {
+  width: 50%;
+}
+.profile-icon {
+  width: 30px;  
+  height: 30px; 
+  border-radius: 50%; 
+  background-color: #ddd; 
+  background-size: cover; 
+  background-position: center; 
+  cursor: pointer;
+  border: 2px solid #03ac0e; 
+
 .navbar {
     display: flex;
+
 }
 
 .navbar a {

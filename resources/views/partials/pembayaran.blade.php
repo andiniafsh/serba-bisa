@@ -20,6 +20,15 @@
                         </div>
                         <div class="my-3 border-top">
                             <p class="font-weight-bold">Riwayat</p>
+
+                            <p><a href="/riwayat" class="text-secondary">Riwayat Pesanan</a></p>
+                            <p><a href="/riwayat2" class="text-secondary">Berikan Penilaian</a></p>
+                        </div>
+                        <div class="my-3 border-top">
+                            <p class="font-weight-bold">Profil</p>
+                            <p><a href="/profil-mitra" class="text-secondary">Ubah Toko Saya</a></p>
+                            <p><a href="/" class="text-secondary">Logout</a></p>
+
                             <p><a href="#" class="text-secondary" style="text-decoration: none;">Riwayat Pesanan</a>
                             </p>
                             <p><a href="#" class="text-secondary" style="text-decoration: none;">Berikan Penilaian</a>
@@ -30,6 +39,7 @@
                             <p><a href="#" class="text-secondary" style="text-decoration: none;">Ubah Toko Saya</a>
                             </p>
                             <p><a href="#" class="text-secondary" style="text-decoration: none;">Logout</a></p>
+
                         </div>
                     </div>
                 </div>
@@ -40,16 +50,16 @@
                     <div class="card-body">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" id="biodata-tab" data-toggle="tab" href="#biodata" role="tab" aria-controls="biodata" aria-selected="true">Biodata Diri</a>
+                                <a class="nav-link" id="biodata-tab" href="/biodata" role="tab" aria-controls="biodata" aria-selected="true">Biodata Diri</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="pembayaran-tab" data-toggle="tab" href="#pembayaran" role="tab" aria-controls="pembayaran" aria-selected="false">Pembayaran</a>
+                                <a class="nav-link active" id="pembayaran-tab" href="/pembayaran" role="tab" aria-controls="pembayaran" aria-selected="false">Pembayaran</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="alamat-tab" data-toggle="tab" href="#alamat" role="tab" aria-controls="alamat" aria-selected="false">Daftar Alamat</a>
+                                <a class="nav-link" id="alamat-tab" href="/alamat" role="tab" aria-controls="alamat" aria-selected="false">Daftar Alamat</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="keamanan-tab" data-toggle="tab" href="#keamanan" role="tab" aria-controls="keamanan" aria-selected="false">Keamanan</a>
+                                <a class="nav-link" id="keamanan-tab" href="/pengaturan" role="tab" aria-controls="keamanan" aria-selected="false">Keamanan</a>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">

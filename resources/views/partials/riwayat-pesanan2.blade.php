@@ -18,6 +18,15 @@
                     </div>
                     <div class="my-3 border-top">
                         <p class="font-weight-bold">Riwayat</p>
+
+                        <p><a href="/riwayat" class="text-secondary">Riwayat Pesanan</a></p>
+                        <p><a href="/riwayat2" class="text-secondary">Berikan Penilaian</a></p>
+                    </div>
+                    <div class="my-3 border-top">
+                        <p class="font-weight-bold">Profil</p>
+                        <p><a href="#" class="text-secondary">Ubah Toko Saya</a></p>
+                        <p><a href="/" class="text-secondary">Logout</a></p>
+
                         <p><a href="#" class="text-secondary" style="text-decoration: none;">Riwayat Pesanan</a>
                         </p>
                         <p><a href="#" class="text-secondary" style="text-decoration: none;">Berikan Penilaian</a>
@@ -28,6 +37,7 @@
                         <p><a href="#" class="text-secondary" style="text-decoration: none;">Ubah Toko Saya</a>
                         </p>
                         <p><a href="#" class="text-secondary" style="text-decoration: none;">Logout</a></p>
+
                     </div>
                 </div>
             </div>

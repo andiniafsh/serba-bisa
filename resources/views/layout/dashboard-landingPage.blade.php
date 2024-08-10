@@ -36,7 +36,7 @@
             <span>Semua Jenis Pekerjaan<br>Tersedia Disini!</span>
             <h1>Serba Bisa adalah website yang menyediakan<br> layanan freelancer unik bagi masyarakat yang<br>
                 memerlukan pekerjaan, serta jasa yang<br> bermanfaat bagi pengguna</h1>
-            <a href="#" class="btn-mitra">Daftar Mitra</a>
+            <a href="/daftar-mitra-1" class="btn-mitra">Daftar Mitra</a>
             <a href="#" class="btn-pekerja">Cari Pekerjaan <i class="bx bx-right-arrow-alt"></i></a>
         </div>
         <div class="banner-img">

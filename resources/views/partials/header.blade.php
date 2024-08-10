@@ -1,4 +1,32 @@
 
+<!-- Header -->
+<div class="header">
+    <div class="item-header-2 d-flex flex-column">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="site-name">
+                <span class="serba">Serba</span><span class="bisa">Bisa.</span>
+            </div>
+            <div class="wrap-search">
+                <input type="text" class="form-control" placeholder="Cari barang" data-toggle="modal"
+                    data-target="#exampleModal">
+                <div class="wrap-icon-search">
+                    <img class="img-search" src="img/profil/3.png" alt="">
+                </div>
+            </div>
+
+            <div class="wrap-img-shop mx-3" onclick="on()">
+                <a href="/shoppingpage-keranjang">
+                    <img class="img-shop" src="img/profil/shopping-cart.png" alt="">
+                </a>
+            </div>
+            <div class="wrap-img-bell mx-3" onclick="on()">
+                <img class="img-bell" src="img/profil/bell.png" alt="">
+            </div>
+            <div class="wrap-img-chat mx-3" onclick="on()">
+                <img class="img-chat" src="img/profil/chat.png" alt="">
+            </div>
+
+
     <!--navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top item-header-2">
         <div class="container">
@@ -6,6 +34,19 @@
             <a class="navbar-brand site-name" href="#" style="font-size: 1.5rem; font-weight: 700;">
                 <span class="serba">Serba</span><span class="bisa">Bisa</span>
             </a>
+
+
+            <div class="d-flex">
+                <a href="/profil-mitra">
+                    <img src="img/profil/Frame 1.png" alt="Profil" class="profile-icon ml-4" title="Profil">
+                    <span class="profile-name">Toko Alif</span>
+                </a>
+                
+                <a href="/biodata">
+                    <img src="img/profil/Frame 2.png" alt="Profil" class="profile-icon ml-3" title="Profil">
+                    <span class="profile-name">Poyeksi</span>
+                </a>
+                
 
             <!--Toggle Btn-->
             <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
@@ -65,6 +106,7 @@
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </nav>
