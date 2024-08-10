@@ -2,29 +2,34 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SerbaBisa</title>
+    <link rel="stylesheet" href="{{ url('css/nav.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
 <body>
     <!--Navbar-->
-    <header>
+    <nav>
         <div class="site-name">
             <span class="serba">Serba</span><span class="bisa">Bisa.</span>
         </div>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        <ul class="navbar">
+        <div id="menu-icon" class="menu-icon">
+            <i class="ph-fill ph-list"></i>
+        </div>
+        <ul id="menu-list" class="hidden">
             <li><a href="#beranda">Beranda</a></li>
             <li><a href="#jelajah">Jelajah</a></li>
             <li><a href="#kontak">Kontak</a></li>
             <li><a href="#masuk">Masuk</a></li>
             <li><a href="#daftar">Daftar</a></li>
         </ul>
-    </header>
+    </nav>
+
     <!--Banner About-->
     <section class="banner" id="banner">
         <div class="banner-text">
@@ -198,11 +203,11 @@
         <div class="mitra-container">
             <div class="mitra-card">
                 <figure>
-                    <img src="img/Populer Picture 1.png" alt="">
+                    <img src="img/mitra/Mitra 1.png" alt="">
                 </figure>
                 <div class="content-mitra">
-                    <h3>Jozanda Aulia</h3>
-                    <p>Joki Mobile Legend Teraman</p>
+                    <h3>Tim Maju Berkah</h3>
+                    <p>Tim Tukang Bangunan Teramanah</p>
                     <a href="#">Lihat Selengkapnya
                         <i class='bx bx-chevron-right'></i>
                     </a>
@@ -210,11 +215,11 @@
             </div>
             <div class="mitra-card">
                 <figure>
-                    <img src="img/Populer Picture 1.png" alt="">
+                    <img src="img/mitra/Mitra 2.png" alt="">
                 </figure>
                 <div class="content-mitra">
-                    <h3>Jozanda Aulia</h3>
-                    <p>Joki Mobile Legend Teraman</p>
+                    <h3>Mrs. Tiffany Susanto</h3>
+                    <p>Teman Belajar Bahasa Inggris Terfavorit</p>
                     <a href="#">Lihat Selengkapnya
                         <i class='bx bx-chevron-right'></i>
                     </a>
@@ -222,11 +227,11 @@
             </div>
             <div class="mitra-card">
                 <figure>
-                    <img src="img/Populer Picture 1.png" alt="">
+                    <img src="img/mitra/Mitra 3.png" alt="">
                 </figure>
                 <div class="content-mitra">
-                    <h3>Jozanda Aulia</h3>
-                    <p>Joki Mobile Legend Teraman</p>
+                    <h3>Vanessa Hugo</h3>
+                    <p>Web Development Terpercaya</p>
                     <a href="#">Lihat Selengkapnya
                         <i class='bx bx-chevron-right'></i>
                     </a>

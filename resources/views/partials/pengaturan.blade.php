@@ -15,17 +15,20 @@
                         <p class="font-weight-bold">Dompet Saya</p>
                         <p>BCA: 692-XXX-XXX-XX</p>
                         <p>BNI: 692-XXX-XXX-XX</p>
-                        <a href="#" class="text-green">Tambah Rekening Lainnya</a>
+                        <a href="#" class="text-green" style="text-decoration: none;">Tambah Rekening Lainnya</a>
                     </div>
                     <div class="my-3 border-top">
                         <p class="font-weight-bold">Riwayat</p>
-                        <p><a href="#" class="text-secondary">Riwayat Pesanan</a></p>
-                        <p><a href="#" class="text-secondary">Berikan Penilaian</a></p>
+                        <p><a href="#" class="text-secondary" style="text-decoration: none;">Riwayat Pesanan</a>
+                        </p>
+                        <p><a href="#" class="text-secondary" style="text-decoration: none;">Berikan Penilaian</a>
+                        </p>
                     </div>
                     <div class="my-3 border-top">
                         <p class="font-weight-bold">Profil</p>
-                        <p><a href="#" class="text-secondary">Ubah Toko Saya</a></p>
-                        <p><a href="#" class="text-secondary">Logout</a></p>
+                        <p><a href="#" class="text-secondary" style="text-decoration: none;">Ubah Toko Saya</a>
+                        </p>
+                        <p><a href="#" class="text-secondary" style="text-decoration: none;">Logout</a></p>
                     </div>
                 </div>
             </div>
@@ -72,7 +75,7 @@
                                     <div class="content">
                                         <h5>Aktivitas Login</h5>
                                         <h6>Apabila ada aktivitas tak dikenal, segera klik "keluar" dan <a href="#"
-                                                class="text-green" style="color: #039855">ganti kata sandi</a></h6>
+                                                class="text-green" style="color: #039855 ; text-decoration: none;">ganti kata sandi</a></h6>
                                         <div class="login-activity">
                                             <div class="d-flex align-items-center">
                                                 <img src="img/profil/mobile.png" alt="Device">
@@ -81,7 +84,7 @@
                                                     <p class="small text-muted">192.168.11.321</p>
                                                 </div>
                                                 <a href="#" class="ml-auto text-green"
-                                                    style="color: #039855">Keluar</a>
+                                                    style="color: #039855; text-decoration: none;">Keluar</a>
                                             </div>
                                             <div class="d-flex align-items-center mt-3">
                                                 <img src="img/profil/mobile.png" alt="Device">
@@ -91,7 +94,7 @@
                                                     <p class="small text-muted">Aktif 20 Des 2023, 12.20</p>
                                                 </div>
                                                 <a href="#" class="ml-auto text-green"
-                                                    style="color: #039855">Keluar</a>
+                                                    style="color: #039855; text-decoration: none;">Keluar</a>
                                             </div>
                                             <div class="d-flex align-items-center mt-3">
                                                 <img src="img/profil/mobile.png" alt="Device">
@@ -101,7 +104,7 @@
                                                     <p class="small text-muted">Aktif 2 Jul 2024, 21.00</p>
                                                 </div>
                                                 <a href="#" class="ml-auto text-green"
-                                                    style="color: #039855">Keluar</a>
+                                                    style="color: #039855;text-decoration: none;">Keluar</a>
                                             </div>
                                         </div>
                                     </div>

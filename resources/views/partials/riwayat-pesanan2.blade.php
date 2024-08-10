@@ -7,23 +7,27 @@
                     <img src="img/profil/Frame 2.png" class="rounded-circle mb-3" alt="Profile Picture">
                     <h5 class="card-title">Poyeski</h5>
                     <p class="card-text">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
                     </p>
                     <div class="my-3 border-top">
                         <p class="font-weight-bold">Dompet Saya</p>
                         <p>BCA: 692-XXX-XXX-XX</p>
                         <p>BNI: 692-XXX-XXX-XX</p>
-                        <a href="#" class="text-green">Tambah Rekening Lainnya</a>
+                        <a href="#" class="text-green" style="text-decoration: none;">Tambah Rekening Lainnya</a>
                     </div>
                     <div class="my-3 border-top">
                         <p class="font-weight-bold">Riwayat</p>
-                        <p><a href="#" class="text-secondary">Riwayat Pesanan</a></p>
-                        <p><a href="#" class="text-secondary">Berikan Penilaian</a></p>
+                        <p><a href="#" class="text-secondary" style="text-decoration: none;">Riwayat Pesanan</a>
+                        </p>
+                        <p><a href="#" class="text-secondary" style="text-decoration: none;">Berikan Penilaian</a>
+                        </p>
                     </div>
                     <div class="my-3 border-top">
                         <p class="font-weight-bold">Profil</p>
-                        <p><a href="#" class="text-secondary">Ubah Toko Saya</a></p>
-                        <p><a href="#" class="text-secondary">Logout</a></p>
+                        <p><a href="#" class="text-secondary" style="text-decoration: none;">Ubah Toko Saya</a>
+                        </p>
+                        <p><a href="#" class="text-secondary" style="text-decoration: none;">Logout</a></p>
                     </div>
                 </div>
             </div>
@@ -38,7 +42,6 @@
                             <section class="profile-cards mt-3">
                                 <div class="card">
                                     <div class="card-header">
-                                        <input type="checkbox" class="checkbox">
                                         <img src="img/profil/Frame 3.png" alt="Profile Image">
                                         <div class="card-details">
                                             <h3><b> Tukang Bangunan Maju Mundur Jaya</b></h3>
@@ -93,8 +96,6 @@
                                 </div>
                             </section>
                         </div>
-                    {{-- </div> --}}
-                {{-- </div> --}}
             </div>
         </div>
     </div>
