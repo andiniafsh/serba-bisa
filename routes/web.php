@@ -56,6 +56,7 @@ Route::get('/riwayat2', function () {
 Route::get('/pengaturan', function () {
     return view('layout/profil-akun-Pengaturan');
 });
+
 Route::get('/profil-mitra', function () {
     return view('layout/profil-akun-profil-mitra');
 });
@@ -102,4 +103,11 @@ Route::get('/shoppingpage-metodepembayaran', function () {
 });
 Route::get('/shoppingpage-pembayaranberhasil', function () {
     return view('shoppingpage/shopping-page-pembayaranberhasil');
+
+Route::get('/tambah-jasa', function () {
+    return view('tambah_jasa');
+});
+Route::get('/header', function () {
+    return view('partials/header');
+
 });

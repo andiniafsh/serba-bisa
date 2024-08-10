@@ -45,3 +45,5 @@ document.addEventListener('DOMContentLoaded', () => {
     updatePagination();
     showPage(0); // Tampilkan halaman pertama saat memuat
 });
+
+

@@ -115,3 +115,11 @@
 .complete-btn:hover {
     background-color: var(--main-color);
 }
+.profile-cards {
+    max-height: 600px; 
+    overflow-y: auto; 
+}
+
+.profile-cards .card {
+    margin-bottom: 10px; 
+}

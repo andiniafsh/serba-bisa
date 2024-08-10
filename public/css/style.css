@@ -9,6 +9,7 @@
     list-style: none;
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
+    /* overflow-x: hidden; */
 }
 
 :root {
@@ -19,31 +20,13 @@
 }
 
 section {
-    padding: 50px 10%;
+    padding: 40px 10%;
 }
 *::selection {
     color: #fff;
     background-color: var(--main-color);
 }
 
-
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #fff;
-    box-shadow: 0 4px 41px rgba(14, 55, 54, 0.14);
-    padding: 15px 10%;
-    transition: 0.2s;
-}
-/* .banner-img{
-    transform: scale(1.2);
-} */
 
 .site-name {
     font-size: 1.5rem;
@@ -58,29 +41,7 @@ header {
     color: var(--second-color); 
 }
 
-
-.navbar {
-    display: flex;
-}
-
-.navbar a {
-    font-size: 1rem;
-    padding: 11px 20px;
-    color: var(--main-color);
-    font-weight: 600;
-}
-
-.navbar a:hover {
-    color: var(--second-color);   
-}
-
-#menu-icon {
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 1001;
-    display: none;
-}
-
+/* =================================Section Banner========================================================*/
 .banner {
     width: 100%;
     min-height: 100vh;
@@ -90,6 +51,7 @@ header {
     background: linear-gradient(to right, rgba(50, 213, 131, 0.79), rgba(204, 238, 153, 0.23));
     padding: 100px 10%; 
     gap: 2rem;
+    overflow-x: hidden;
 }
 
 .banner-text {
@@ -252,6 +214,7 @@ header {
     color: #1C274C;
     text-align: center;
     margin-bottom: 2rem;
+    overflow-x: hidden;
 }
 
 .mitra-container {
@@ -329,6 +292,7 @@ header {
     display: flex; 
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .gabung-container {
@@ -421,6 +385,7 @@ header {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .layanan-jasa .heading h1 {
@@ -511,6 +476,7 @@ header {
     max-width: 100%;
     margin: 0 auto;
     padding: 50px 20px;
+    overflow-x: hidden;
 }
 
 .reason .heading h1 {
@@ -768,9 +734,6 @@ footer {
 
 
  @media(max-width:1150px){
-    header{
-        padding: 18px 7%;
-    }
     section{
         padding: 50px 7%;
     }
@@ -881,9 +844,7 @@ footer {
     }
  }
  @media(max-width:991px){
-    header{
-        padding: 18px 4%;
-    }
+   
     section{
         padding: 50px 4%;
     }
@@ -1021,33 +982,6 @@ footer {
     
  }
   @media(max-width:768px){
-    header{
-        padding: 11px 4%;
-    }
-    #menu-icon{
-        display: initial;
-    }
-    header .navbar{
-        position: absolute;
-        top: -500px;
-        left: 0;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-        background: white;
-        box-shadow: 0 4px 4px rbg(14 55 54 /14%);
-        border-top:  2px solid var(--main-color);
-        transition: 0.2s;
-        text-align: left;
-    }
-    .navbar .active {
-        top: 100%;
-    }
-    .navbar a{
-        padding: 1.5rem;
-        display: block;
-        color: var(--second-color);
-    }
     .banner-text span{
         font-size: 0.9rem;
     }
@@ -1231,7 +1165,13 @@ footer {
         right: 10px;
         transform: scale(1.3);
     }
+    .footer-section h4 {
+        font-size: 0.5rem;
+    }
  }
+
+
+
  @media (max-width: 320px) {
     .mitra .heading h1 {
         font-size: 1.2rem;
@@ -1353,6 +1293,7 @@ footer {
         padding: 1rem; 
         text-align: center;
         max-width: 100%; 
+    }
 
     .gabung-card h1 {
         font-size: 1.5rem; 
@@ -1367,4 +1308,4 @@ footer {
         font-size: 0.9rem; 
     }
 }
- }
+ 
