@@ -36,7 +36,17 @@
 <body>
     <!--Navbar-->
     @include('partials.header')
-    @include('partials.breadcrumb')
+    <section class="custom-section py-3">
+        <div class="container">
+            <div class="home-icon py-5">
+                <a href="/shoppingpage" class="logo" style="color: black">
+                    <i class="fa-solid fa-house"></i> 
+                    /
+                </a>
+                <span class="home-icon-text">Profil Akun</span>
+            </div>
+        </div>
+    </section>
     @include('partials.profil-mitra')
     @include('partials.footer')
 

@@ -103,9 +103,9 @@ Route::get('/shoppingpage-metodepembayaran', function () {
 });
 Route::get('/shoppingpage-pembayaranberhasil', function () {
     return view('shoppingpage/shopping-page-pembayaranberhasil');
-
+});
 Route::get('/tambah-jasa', function () {
-    return view('tambah_jasa');
+    return view('layout/profil-akun-tambah-jasa');
 });
 Route::get('/header', function () {
     return view('partials/header');

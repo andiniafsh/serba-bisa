@@ -145,7 +145,7 @@
             <button type="submit">Buat akun</button>
         </form>
         <div class="register-link">
-            <p>Sudah Mempunyai akun? <a href="#">Masuk</a></p>
+            <p>Sudah Mempunyai akun? <a href="/login">Masuk</a></p>
         </div>
     </div>
 
@@ -183,6 +183,7 @@
                 .then(data => {
                     if (data.success) {
                         alert('Registrasi berhasil');
+                        window.location.href = '/login';
                     } else {
                         alert('Registrasi gagal: ' + data.message);
                     }
@@ -190,6 +191,11 @@
                 .catch(error => {
                     console.error('Error:', error);
                 });
+        });
+
+        document.getElementById('registerForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Mencegah form dari pengiriman default
+        window.location.href = '/login'; // Arahkan ke halaman /login
         });
     </script>
 </body>

@@ -26,16 +26,11 @@
 <body>
     @include('partials.header')
     <!-- Section Baru -->
-    <section class="custom-section py-5">
+    <section class="custom-section py-3">
         <div class="container">
-            <div class="home-icon">
-
+            <div class="home-icon py-5">
                 <a href="/shoppingpage" class="logo" style="color: black">
                     <i class="fa-solid fa-house"></i> 
-
-                <a href="#" class="logo" style="color: black">
-                    <i class="fa-solid fa-house"></i>
-
                     /
                 </a>
                 <span class="home-icon-text">Profil Akun</span>

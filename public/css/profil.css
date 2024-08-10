@@ -47,7 +47,6 @@
 
 .navbar {
     display: flex;
-
 }
 
 .navbar a {
@@ -91,4 +90,4 @@
         font-weight: bold;
     }
   }
-  
+}

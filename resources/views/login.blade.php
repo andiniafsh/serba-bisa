@@ -139,13 +139,13 @@
 <body>
     <div class="login-box">
         <h1>Masuk</h1>
-        <form>
+        <form action="/shoppingpage" method="GET">
             <input type="text" id="username" placeholder="Nama Pengguna" required>
             <input type="password" id="password" placeholder="Kata Sandi" required>
             <button type="submit">Masuk</button>
         </form>
         <div class="register-link">
-            <p>Tidak Memiliki akun? <a href="#">Daftar</a></p>
+            <p>Tidak Memiliki akun? <a href="/register">Daftar</a></p>
         </div>
     </div>
 

@@ -25,8 +25,8 @@
             <li><a href="#beranda">Beranda</a></li>
             <li><a href="#popular-services">Jelajah</a></li>
             <li><a href="#footer">Kontak</a></li>
-            <li><a href="#masuk">Masuk</a></li>
-            <li><a href="#daftar">Daftar</a></li>
+            <li><a href="/login">Masuk</a></li>
+            <li><a href="/register">Daftar</a></li>
         </ul>
     </nav>
 
