@@ -127,7 +127,7 @@
                 <div class="service-cards row">
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <a href="/shoppingpage-pasangregulatorgas"> 
+                            <a href="/shoppingpage-pasangregulatorgas" style="text-decoration: none; color:black"> 
                                 <img src="img/popular/pasanglpg.png" alt="Service Image">
                                 <div class="card-body">
                                  <h5 class="card-title">Pasang Regulator GAS 3/12 KG</h5>

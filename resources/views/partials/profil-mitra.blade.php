@@ -95,24 +95,6 @@
                                     </button>
                                 </div>
                             </div>
-                            {{-- <div class="row">
-                                <div class="col-md-6">
-                                    <p>Satuan Hitungan Harga: <span class="text-success">Per hari</span></p>
-                                    <p>Keterangan Tambahan: <span class="text-success">Jumlah Kuli 10 orang</span></p>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Jam Kerja: <span class="text-success">08.00 - 17.00</span></p>
-                                    <p>Chat / Kontak: <span class="text-success">Serba Bisa, Whatsapp</span></p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <p>Jumlah Pesanan: <span class="text-success">1</span></p>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Status Jasa: <span class="text-warning">Sedang Menerima Pesanan</span></p>
-                                </div>
-                            </div> --}}
                     </div>
                 </div>
                 

@@ -38,18 +38,18 @@
         </div>
     </section>
 
-    <main class="main-content">
-        <div class="container">
-            <div class="content">
-                <img src="img/popular/pembayaranberhasil.png" alt="Happy Children" class="children-image">
-                <h2>Selamat, Pembayaran Berhasil!</h2>
+    <main class="main-content" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <div class="container" style="text-align: center;">
+            <div class="content" style="display: flex; flex-direction: column; align-items: center;">
+                <img src="img/popular/pembayaranberhasil.png" alt="Happy Children" class="children-image" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+                <h2 style="margin-bottom: 20px;">Selamat, Pembayaran Berhasil!</h2>
                 <a href="shoppingpage">
                     <button class="btn btn-success btn-block">Pesan Jasa Lagi</button>
                 </a>
-                
             </div>
         </div>
     </main>
+    
 
     @include('partials.footer')
 

@@ -121,7 +121,7 @@
                     <div class="review-item">
                         <div class="d-flex">
                             <div class="review-author">
-                                <img src="img/user.jpg" alt="User">
+                                <img src="img/profil/Frame 1.png" alt="User">
                             </div>
                             <div class="review-content">
                                 <div class="review-header">
@@ -143,11 +143,11 @@
                     <div class="review-item">
                         <div class="d-flex">
                             <div class="review-author">
-                                <img src="img/user.jpg" alt="User">
+                                <img src="img/profil/Frame 2.png" alt="User">
                             </div>
                             <div class="review-content">
                                 <div class="review-header">
-                                    <h5>Pake_Nanya</h5>
+                                    <h5>Saya_siapa</h5>
                                     <span>500 <i class="fa fa-thumbs-up text-success"></i> | 2 <i class="fa fa-thumbs-down text-danger"></i></span>
                                 </div>
                                 <div class="review-body">

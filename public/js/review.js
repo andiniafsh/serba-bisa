@@ -30,8 +30,40 @@ document.addEventListener('DOMContentLoaded', function() {
                     
                     // Sembunyikan tombol "Tandai Selesai" setelah status diubah
                     button.style.display = 'none';
+
+                    // Arahkan ke route "/riwayat2"
+                    window.location.href = "/riwayat2";
                 }
             });
         });
     });
 });
+
+//bintang di riwayat pesanan 2
+    document.addEventListener('DOMContentLoaded', function() {
+        const stars = document.querySelectorAll('.star-review .fas.fa-star');
+        const statusSpan = document.querySelector('.profile-cards .status');
+        let ratingValue = 0;
+    
+        // Mengatur interaksi bintang rating
+        stars.forEach(function(star, index) {
+            star.addEventListener('click', function() {
+                ratingValue = index + 1;
+                stars.forEach(function(s, idx) {
+                    if (idx < ratingValue) {
+                        s.classList.add('filled');
+                    } else {
+                        s.classList.remove('filled');
+                    }
+                });
+                // Mengubah status menjadi "Selesai" setelah rating diberikan
+                if (ratingValue > 0) {
+                    statusSpan.textContent = 'Selesai';
+                    statusSpan.classList.remove('status-pending');
+                    statusSpan.classList.add('status-completed');
+                }
+            });
+        });
+    });
+
+
