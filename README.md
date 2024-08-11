@@ -1,3 +1,64 @@
+
+![SERBABISA](https://drive.google.com/uc?export=view&id=1du4xEsa9gODHyZudwFuqrrho36aaSvgx)
+
+
+# About🌐
+### SerbaBisa
+
+<p align="justify">Di era digital saat ini, kebutuhan akan layanan yang mudah diakses dan terjangkau semakin meningkat. Banyak individu dengan keterampilan dan kemampuan yang beragam, dari pekerja kasar hingga tenaga profesional, belum memiliki platform yang tepat untuk menawarkan jasa mereka secara efektif. Website SerbaBisa ini hadir sebagai solusi yang menghubungkan penyedia jasa dengan pencari jasa dalam satu platform, memudahkan kolaborasi dan meningkatkan peluang kerja bagi semua pihak. </p>
+
+<p align="justify">Serba Bisa adalah website yang menyediakan layanan freelancer unik bagi masyarakat yang memerlukan pekerjaan, serta jasa yang bermanfaat bagi pengguna</p>
+
+# Hi everyone!👋
+
+### We Are From SerbaBisa team, Whose Members Are:
+
+|Name | University |
+| ---      | ---       | 
+| Rizka Fiddiyansyah   | Universitas Pembangunan Nasional Veteran Jawa Timur |
+| Yasita Nursiva    | Universitas Pembangunan Nasional Veteran Jawa Timur |
+| Alif Wisam 	D.F   | Universitas Pembangunan Nasional Veteran Jawa Timur |
+| Andini Fitriyah Salsabilah	   | Universitas Pembangunan Nasional Veteran Jawa Timur |
+| Jozanda Aulia   | Universitas Pembangunan Nasional Veteran Jawa Timur |
+
+
+# How to install our Project ⚙️
+## Prasyarat
+
+Pastikan Anda sudah memiliki:
+- PHP >= 8.0
+- Composer
+- Web Server (Apache/Nginx)
+- Database (MySQL, PostgreSQL, SQLite, atau SQL Server)
+## Langkah Instalasi
+
+1. *Clone Repository*
+
+   Clone repository GitHub ke komputer lokal Anda:
+   ```bash
+   git clone https://github.com/username/repository-name.git
+2. *Navigasi ke Direktori Proyek*
+    cd repository-name
+3. *Install Dependencies Menggunakan Composer*
+    composer install
+4. *Buat File Environment (.env)*
+    cp .env.example .env
+5. *Generate Application Key*
+    php artisan key:generate
+6. *Konfigurasi Database*
+    DB_DATABASE=nama_database
+    DB_USERNAME=user_database
+    DB_PASSWORD=password_database
+7. *Jalankan Migrasi Database*
+    php artisan migrate
+8. *Install Dependencies Frontend (Opsional)*
+    npm install
+9. *Jalankan Laravel Development Server*
+    php artisan serve
+11. *Selesai*
+
+# Pada Proyek ini kami menggunakan framework laravel  📱
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +125,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
