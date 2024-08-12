@@ -1,9 +1,11 @@
-
+![image](https://github.com/user-attachments/assets/5c863dea-4995-4b92-8727-fcf6ac25372a)
 ![SERBABISA](https://drive.google.com/uc?export=view&id=1du4xEsa9gODHyZudwFuqrrho36aaSvgx)
 
 
 # About🌐
 ### SerbaBisa
+
+Link Web: https://serbabisa.thumb-code.com/
 
 <p align="justify">Di era digital saat ini, kebutuhan akan layanan yang mudah diakses dan terjangkau semakin meningkat. Banyak individu dengan keterampilan dan kemampuan yang beragam, dari pekerja kasar hingga tenaga profesional, belum memiliki platform yang tepat untuk menawarkan jasa mereka secara efektif. Website SerbaBisa ini hadir sebagai solusi yang menghubungkan penyedia jasa dengan pencari jasa dalam satu platform, memudahkan kolaborasi dan meningkatkan peluang kerja bagi semua pihak. </p>
 
