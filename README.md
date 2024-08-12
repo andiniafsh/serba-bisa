@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5c863dea-4995-4b92-8727-fcf6ac25372a)
+
 ![SERBABISA](https://drive.google.com/uc?export=view&id=1du4xEsa9gODHyZudwFuqrrho36aaSvgx)
 
 
